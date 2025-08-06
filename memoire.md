@@ -14,9 +14,9 @@
 #### II.1.b Activité et secteur  
 #### II.1.c Organisation interne  
 
-### 2.2 Mon rôle au sein de l’entreprise  
-#### 2.2.1 Intitulé du poste et missions  
-#### 2.2.2 Intégration dans l’équipe  
+### II.2 Mon rôle au sein de l’entreprise  
+#### II.2.a Intitulé du poste et missions  
+#### II.2.b Intégration dans l’équipe  
 
 ## III. Problématique et enjeux
 
