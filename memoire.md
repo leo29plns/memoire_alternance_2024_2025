@@ -8,7 +8,7 @@ Car oui, c'est bien la créativité qui a guidé toutes ces lignes de code, et n
 Voilà donc pourquoi cet écrit reprendra de temps à autres les codes du récit; toujours dans la même optique : exposer une situation initiale pour aboutir à une situation finale (cf. le schéma narratif).  
 Le mémoire étant un exercice de développement de la pensée ayant pour objectif in fine d'exprimer une opinion [@MemoireEcrit2024], il était pour moi important qu'il soit un reflet personnel, adoptant un style qui m'est propre.
 
-CECI EST UN ESSAI ← en parler
+CECI EST UN ESSAI ← en parler – se rapproche plus d'une invitation à réflexion qu'un commentaire d'une personne compétente
 
 ## Cadre du mémoire
 ### 1. Contexte général
