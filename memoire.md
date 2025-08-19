@@ -32,15 +32,16 @@ Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur
 - ChatGPT pour la relecture uniq. + anonymisation (tout en pensant aux algos, pour ne pas leaker avec des déductions par fingerprint)
 
 
-## II. Une alternance à Publicis Sapient
-### II.1 Swagger, 
+## I. Une alternance à Publicis Sapient
+### I.1 Prométhée, Swagger… et Alexis CHARPENTIER
+La fin de la deuxième année de BUT 
 
-## II. Présentation de l’environnement professionnel
+## I. Présentation de l’environnement professionnel
 
-### II.1 L’entreprise d’accueil
-#### II.1.a Historique
-#### II.1.b Activité et secteur
-#### II.1.c Organisation interne
+### I.1 L’entreprise d’accueil
+#### I.1.a Historique
+#### I.1.b Activité et secteur
+#### I.1.c Organisation interne
 
 
 ## Annexes
@@ -48,6 +49,10 @@ Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur
 ### A. Cahier des charges
 ### B. Documents techniques
 ### C. Glossaire
+- **MMI** Métiers du Multimédia et de l'Internet. Formation universitaire réalisée au cours d'un BUT.
+- **BUT** Bachelor Universitaire de Technologie. Diplôme de l’enseignement supérieur, obtenu après trois années d’études post-bac dans un IUT.
+- **IUT** Institut Universitaire de Technologie. Composante d’une université délivrant le BUT.
+
 ### D. Quelques GIFs utilisés
 
 ## Bibliographie
