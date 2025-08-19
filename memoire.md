@@ -2,7 +2,7 @@
 ## Avant-propos
 La forme de ce mémoire se veut un temps soit peu moins académique. C'est à mon sens une caractéristique importante que j'ai pu apprendre en MMI. Lycéen hier, je n'étais je dois l'avouer qu'intéressé par la programmation. Pourtant, la formation m'aura bien plus appris que des lignes de code. Elle m'aura donné un regard neuf sur le web, sur ses utilisateurs, sur le rôle du développeur, du concepteur mais elle m'a surtout amené à repenser la créativité. 
 
-Le 22 juin dernier, je [@http://zotero.org/users/local/309dUStj/items/RHGIEZZG]
+Voir [@Sonepar2025, p. 123] 
 
 
 
