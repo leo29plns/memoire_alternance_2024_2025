@@ -1,3 +1,5 @@
+# Brouillon
+
 # ITWs
 Réaliser ITWs 
 
@@ -18,12 +20,12 @@ En 2020, l'entreprise Sonepar a fait le choix de Publicis Sapient pour sa transf
 2. Publicis Sapient, c’est quoi ?
 3. Comment s’est déroulée mon arrivée ?
 4. Mon équipe, et la structure du programme
-5. La gestion de projet
+5. La gestion de projet + rituels
 6. La stack technique
 7. Les missions que j’ai réalisées
-8. Les livrables et réalisations effectuées à ce jour
-9. Difficultés rencontrées
-10. Bilan perso / pro
+8. L'alternance, entre cours et entreprise
+9. Les livrables et réalisations effectuées à ce jour + difficultés
+11. Bilan perso / pro
 
 ## Intro
 - Travailler à l'usine ?
