@@ -22,7 +22,11 @@ Mélanie et Julien
 
 # Résumé {-}
 
+Ce mémoire retrace l’expérience d’un étudiant en alternance chez Publicis Sapient entre 2024 et 2025. Il analyse la transformation du métier de développeur web à travers une démarche introspective. La réflexion s’appuie sur la métaphore des cols bleus et des cols blancs et interroge l’influence des _Digital Factories_. À partir d’entretiens, d’observations et de lectures, il met en lumière des enjeux éthiques, organisationnels et identitaires.
+
 # Abstract {-}
+
+This dissertation recounts the experience of a work-study student at Publicis Sapient between 2024 and 2025. It examines the transformation of the web developer profession through an introspective lens. The discussion draws on the metaphor of blue-collar and white-collar workers and questions the influence of _Digital Factories_. Based on interviews, observations, and literature, it sheds light on ethical, organizational, and identity-related challenges.
 
 # Table des matières {-}
 ::: {#toc}
@@ -32,37 +36,44 @@ Mélanie et Julien
 
 ## Contexte général
 
-Je dois faire une alternance après MMI, avec un livrable à la fin : le mémoire + soutenance
+Le BUT MMI de Champs-sur-Marne impose la réalisation d'une alternance en entreprise pour la troisième année de formation. Cet exercice veut favoriser l'insertion professionnelle des étudiants. Pour rendre compte de cette expérience, les étudiants se soumettent à la rédaction d'un mémoire d'alternance, contexte dans lequel ce mémoire est né.
 
 ## Objectifs du mémoire
 
-Rendre compte d'une progression, d'une évolution personnelle et professionnelle, en se référant à MMI.
+Ce mémoire a pour objectif premier de montrer une introspection personnelle par la réalisation d'une alternance au sein d'une entreprise. Ce mémoire veut rendre compte d'une progression, d'une évolution personnelle et professionnelle, tout en montrant un parallèle avec la formation étudiée.
 
 ## Démarche méthodologique
 
-ITWs + observation + données provenant internet
+Pour guider la rédaction de ce document, je me suis appuyé sur des interviews que j'ai réalisé auprès de mes collègues. Celles-ci m'ont aidé notamment à établir la structure de ce document.
+
+Je me suis également appuyé sur des observations personnelles tout au long de mon alternance.
+
+Enfin, j'ai récolté nombre d'informations et de données depuis Internet. La source de ces informations est accessible depuis la bibliographie de ce document.
 
 ## Structure du mémoire
 
 ### La forme guidée par des valeurs
 
-éthique...
-- Libre
-- Transparence (Open Source + bibliographie CSL JSON)
-- Accessibilité universelle
-- Approche humaine (cf. centré utilisateur / empathie)
-- Respect de la vie privée (données personnelles)
+Vous le comprendrez au cours de votre lecture de ce document : l'éthique est un point important de ma réflexion. Pour être fidèle à cette idée, j'ai décidé de suivre les principes suivants pour guider ma rédaction :
 
-### La rigueur au service de la créativité
-
-Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur un cadre rigoureux pour traiter le sujet de manière structurée.
+- **Libre** Ce document est distribué sous licence MIT, permettant sa réutilisation dans n'importe quel contexte profesionnel ou privé, gratuitement.
+- **Transparence** Afin de suivre une logique d'ouverture Open Source, et montrer les procédés de création de ce document, il a été décider d'ouvrir publiquement le _repository_ git.
+- **Accessibilité** Afin d'éviter l'exclusion d'un trop grand nombre de publics, ce document a été réalisé en Markdown et est exporté avec Pandoc. Cela permet de réaliser des exports notamment vers HTML avec une syntaxe compatible avec les lecteurs d'écran par exemple.
+- **Approche humaine** Ce mémoire se base sur diverses interviews réalisées avec mes collègues, m'ayant permis de réaliser ainsi la structure de ce document.
 
 ## Outils utilisés
 
-- Zettlr
-- Zotero + BetterBibTeX
-- Git et GitHub
-- ChatGPT pour la relecture + recherche
+Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur un cadre rigoureux pour traiter le sujet de manière structurée. Ainsi, ont été utilisés les outils suivants afin d'adopter ce cadre constant.
+
+- **Zettlr** m'a permis de me concentrer sur la rédaction de ce mémoire, avec pour simple outil le Mardown. Cela permet également un export vers divers formats : PDF et HTML entre autres.
+- **Zotero** et l'utilisation conjointe de **BetterBibTeX** m'ont permis d'établir une bibliographie rigoureuse, permettant de consulter facilement mes sources, et de les versionner.
+- **Git** et **GitHub** ont permis le versionnement intégral de ce mémoire. Par-delà la simple fantaisie du développeur, elle me permet d'assurer de la redondance, et de créer des automatisations pour l'export.
+- **ChatGPT**  a été utilisé pour la relecture de ce document, ainsi que pour la réalisation de recherches sur le sujet.
+
+## Utilisation de l'intelligence artificielle
+
+Ce document a été réalisé avec une aide non-négligeable de l'intelligence artificielle, notamment grâce à ChatGPT, un outil développé par OpenAI. L'utilisation de cet outil peut paraître incongru, surtout en considération de mes valeurs morales. Pourtant, l'IA s'impose comme l'outil de demain, et elle en fait une belle démonstration ici. ChatGPT m'a aidé à corriger les fautes d’orthographe qui se sont glissées dans ce document. ChatGPT se trouve être également un formidable moteur de recherche, parvenant à de meilleurs résultats que Google Scholar pour des recherches dans la littérature scientifique. Enfin, cet outil m'a également permis de trouver inspiration pour certaines tournures de phrases, certains sujets.  
+Cet outil n’a pas remplacé ma réflexion ni mon travail d’écriture, mais il a contribué à en améliorer la clarté et la précision. À votre initiative, je pourrais vous donner davantage de précisions, par souci de transparence.
 
 # Travailler dans le _Digital_
 
@@ -111,7 +122,7 @@ Dès lors, une question survient : la _Digital Factory_ constitue-t-elle une org
 
 Il y a une caractéristique propre au BUT MMI[^butmmi], et aux BUT de manière générale : c'est le caractère professionnalisant de la formation. Pour atteindre cet objectif, on propose aux étudiants de s'immiscer dans des applications très concrètes pour se familiariser à leur futur métier. Matériellement, c'est ce que l'on appelle des projets, ou Situation d'Apprentissage et d'Évaluation. Ces projets sont organisés tout au long de l'année, et servent à mettre en pratique la théorie, et même à aller au-delà.
 
-## II.1 Prométhée, Swagger… et Alexis [Charpentier]{.smallcaps}
+## Prométhée, Swagger… et Alexis [Charpentier]{.smallcaps}
 
 C'est ainsi qu'au cours de ma deuxième année de BUT MMI que j'ai pu travailler avec mon équipe sur la réalisation d'un musée virtuel et d'une plateforme de réservation, du nom de Prométhée. Prométhée est une agence fictive qui souhaite promouvoir le travail de femmes artistes. Au delà de montrer leur travail, c'est aussi toute une immersion dans l'univers de ces femmes, donnant ainsi un contexte important à leurs œuvres.  
 Au sein de l'équipe, j'ai notamment été responsable de la mise en place du site web, ainsi que du système de réservation sous-jacent. C'était un projet ambitieux, peut-être trop, mais qui avait pour aspiration à mettre en place des éléments techniques rigoureux, qui auraient pu naître dans un contexte professionnel. Nous voulions que la boutique puisse théoriquement ouvrir ses portes, preuve de choix techniques robustes.  
@@ -125,7 +136,7 @@ C'est à peine après avoir eu le temps de souffler avec l'équipe, et de célé
 [^butmmi]: Bachelor Universitaire de Technologie - Métiers du Multimédia et de l'Internet.
 [^api]: Application Programming Interface, un pont permettant à deux systèmes informatiques d’interagir entre-eux.
 
-## II.2 L'embauche dans le secteur de la tech : un processus complexe
+## L'embauche dans le secteur de la tech : un processus complexe
 
 S'il y a quelques vérités admises sur l'embauche dans le secteur de la tech, elles relèvent avant tout d’un processus long, aux étapes multiples. Malgré le fait qu’une personne m’ait déjà ouvert les portes de l’entreprise, j’ai tout de même dû me soumettre aux exigences portées par le processus d’embauche de l'entreprise.  
 Quelques semaines se sont écoulées depuis ma soutenance de fin d'année. Alexis est revenu vers moi, afin de me proposer un entretien sur Discord. Il m'y explique quelles pourront être mes missions, quels pourront être les projets sur lesquels je pourrais travailler. Pour des raisons évidentes d'impartialité, la suite du processus ne se déroulera pas avec Alexis.
@@ -161,9 +172,9 @@ Et c'est justement dans cette culture que s'inscrit le travail du développeur. 
 
 Si vous n'avez pas compris le titre, rassurez-vous, c'est tout à fait normal. Mon alternance m'a amené à travailler pour trois entreprises distinctes. D'abord, Publicis Groupe, c'est tout simplement la maison-mère de Publicis Sapient. Publicis Sapient, ou PS, est quant à elle une entreprise de conseil, ou plus précisément de _consulting_. Ses employés, eux, sont envoyés en mission chez des clients, parmi lesquels figure Sonepar, un distributeur électrique. Ainsi, pour comprendre la culture d'entreprise appliquée au sein de la _Digital Factory_, il faut d'abord comprendre ce qu'elle est dans ces différentes entités.
 
-## III.1 Publicis Groupe
+## Publicis Groupe
 
-### III.1.a « Si vous attendez que les choses changent, elles changeront sans vous » : l'histoire de Publicis
+### « Si vous attendez que les choses changent, elles changeront sans vous » : l'histoire de Publicis
 
 L'histoire de Publicis est sans conteste un pilier fondateur du groupe. En effet, l'entreprise adopte un narratif au cœur des valeurs de l'entreprise. La figure de ce narratif est Marcel [Bleustein-Blanchet]{.smallcaps}, père fondateur de Publicis, et inventeur de la publicité selon ce récit. C'est lui qui aurait inventé la publicité en France dans les années 1920. Ainsi, en 1926, il fonde la société Publicis, « Publi » étant la publicité, « cis » étant son chiffre porte-bonheur.  
 L'entreprise connaît une croissance remarquable, jusqu'en 1940, où son activité sera mise en pause le temps de la guerre. Cela n'empêchera pas l'homme qui a inventé la publicité de rouvrir quelques années après, redonnant un souffle de prospérité pour la marque.  
@@ -171,7 +182,7 @@ En 1975 opère un changement important pour Publicis : Maurice [Lévy]{.smallcap
 Il faut comprendre aujourd'hui que ce qui fait la renommée de l'entreprise, et ce qui constitue le mastodonte mondial qu'est Publicis, c'est ce mécanisme d'acquisition perpétuel encore de mise aujourd'hui. L'actuel président du groupe, Arthur [Sadoun]{.smallcaps} confirme lui-même cette dynamique dans cette interview accordée à AXA @CornerOffice [] : « The important is to be the only one […] making sure that what we build is unique ». C'est dans cette vision d'être l'unique acteur de marché, que Publicis continue ces acquisitions.
 Dans les années 1990, Maurice [Lévy]{.smallcaps} entreprend un virage numérique important pour la marque : selon lui, c'est un domaine porteur dans lequel il est nécessaire d'investir. 
 
-### III.1.b Aller au-delà de la publicité
+### Aller au-delà de la publicité
 
 À ce jour, le groupe Publicis continue d’œuvrer dans le secteur de la publicité, et plus largement de la communication. Le groupe revendique d’ailleurs être le premier mondial. À l'origine de cette ascension, c'est l'exportation notamment aux États-Unis. C'est sur le nouveau continent que Publicis générera la plus grande part de son chiffre d'affaires, et les exemples ne manquent pas.  
 La célèbre campagne « _I'm Lovin' It_ » du fast food américain McDonald's, ou encore _The Force_ de Volkswagen en 2011, mettant en scène un enfant déguisé en Dark Vador démontrent la force d'ancrage de Publicis. Coca-Cola, Disney, Armani, Lancôme et même Pfizer, tous ces géants de l'industrie ont fait appel à Publicis pour gérer leur communication. Selon Publicis, en France, au cours de sa vie, un téléspectateur voit en moyenne une publicité sur trois à la télévision qui est réalisée par une entité du groupe.
@@ -194,12 +205,12 @@ En bref, Publicis officie au travers d'agences nombreuses que l'on peut regroupe
 
 Enfin, pour dresser un portrait complet de Publicis, il est nécessaire d'aborder les dernières mouvances stratégiques du groupe, dont la philosophie _Power of One_ fait partie intégrante. Ce principe vise à créer une expertise transversale inter-agences, fédérer pour un même compte les divers savoirs du groupe. Ce concept a même une portée matérielle : le déménagement des agences Publicis parisiennes en un même lieu : le 145 rue de Courcelles dans le XVII^e^ arrondissement de Paris. L'objectif est clair : rapprocher les agences.
 
-## III.2 Publicis Sapient
+## Publicis Sapient
 
 Dans sa quête du marché numérique dans les années 2010, le groupe Publicis réalise un achat stratégique alors sans précédent : l'acquisition de l'entreprise américaine Sapient en octobre 2014, pour la modique somme de 3,7 milliards de dollars.
 
 <!-- TODO: revoir NIGEL VAZ + LISE MALBERNARD -->
-### III.2.a Un ancêtre au nom de « Sapient »
+### Un ancêtre au nom de « Sapient »
 
 Pour comprendre l'origine de Publicis Sapient, il faut remonter à la fondation de Sapient aux États-Unis, en 1990. Jerry [Greenberg]{.smallcaps} et J. Stuart [Moore]{.smallcaps} entreprennent la fondation d'une entreprise de conseil, ou _consulting_ dans le numérique.
 
@@ -207,7 +218,7 @@ Contrairement à ce que ce nom suggère, une entreprise de conseil ne fait pas q
 
 C’est précisément ce qui fonde la spécificité de Publicis Sapient : son approche du **DBT, _Digital Business Transformation_**. Ce concept désigne un accompagnement global et intégré, allant de la vision stratégique jusqu’à la réalisation opérationnelle, avec un accent marqué sur le numérique. Les programmes de DBT s’appuient sur des équipes pluridisciplinaires – mêlant stratégie, design, ingénierie logicielle et exploitation de la donnée – organisées en **plateaux projets** ou en **feature teams**. Ces interventions s’inscrivent souvent dans la durée (18 mois à plusieurs années) et mobilisent des budgets conséquents, à la hauteur des transformations structurelles opérées.
 
-### III.2.b À toute allure : le modèle SPEED
+### À toute allure : le modèle SPEED
 
 Pour répondre à cette ambition, l’organisation interne de Publicis Sapient repose sur les **capabilities** (ou _capas_), regroupées sous le modèle méthodologique **SPEED** :
 
@@ -230,7 +241,7 @@ Cette approche ambitieuse, fondée sur la complémentarité des _capas_ et sur u
 Si certains clients acceptent ce surcoût en échange d’une transformation menée tambour battant, d’autres commencent à en percevoir les limites. C’est notamment le cas de Sonepar, acteur mondial de la distribution de matériel électrique, qui a choisi d’externaliser certaines activités après avoir collaboré avec Publicis Sapient. Ce type de décision illustre un risque pour le modèle : à trop miser sur la vitesse et l’exhaustivité de l’accompagnement, le groupe s’expose à une perception de dépendance coûteuse, susceptible de pousser certains clients à arbitrer entre la qualité du service et la soutenabilité financière.
 
 <!-- TODO: revoir -->
-### III.2.c DBT : le modèle pour éviter un nouveau Kodak
+### DBT : le modèle pour éviter un nouveau Kodak
 
 Publicis Sapient évolue sur le marché très concurrentiel du conseil en transformation numérique, où les projets impliquent à la fois stratégie, conception, développement et déploiement opérationnel. Son positionnement repose sur l’approche intégrée du **Digital Business Transformation (DBT)**, qui combine conseil stratégique et exécution opérationnelle. Cette approche, reconnue pour sa rapidité et sa capacité à atteindre les objectifs ambitieux des clients, se distingue toutefois par un coût plus élevé que la moyenne du marché.
 
@@ -239,40 +250,32 @@ Parmi ses principaux concurrents figurent Accenture et Capgemini. Accenture est 
 Ces acteurs illustrent les standards du marché du conseil numérique : des prestations complètes mêlant stratégie, innovation digitale et mise en œuvre opérationnelle. Publicis Sapient se différencie par son ambition « disruptive » et sa rapidité d’exécution, ce qui attire des clients prêts à investir pour des transformations audacieuses, mais limite parfois son accessibilité pour des entreprises sensibles aux coûts.
 
 <!-- TODO: absolument à revoir PHILIPPE DELPECH -->
-## III.3 Sonepar
+## Sonepar
 
 Sonepar, client majeur de Publicis Sapient, est un acteur incontournable de la distribution de matériel électrique à l’échelle mondiale. Contrairement à Publicis Sapient, dont l’activité est centrée sur le conseil et la transformation numérique, Sonepar opère sur un marché industriel et commercial concret : celui de la fourniture de produits électriques aux professionnels et aux entreprises. La collaboration entre les deux entités illustre parfaitement le lien entre un cabinet de conseil technologique et un client ayant besoin d’optimiser ses processus, sa logistique et son expérience digitale. Cette relation permet de comprendre comment les solutions stratégiques de Publicis Sapient sont appliquées dans un contexte opérationnel et sectoriel réel.
 
-### III.3.a Une entreprise familiale française devenu monde
+### Une entreprise familiale française devenu monde
 
 Fondée en 1969 par la famille Lamirand en France, Sonepar a rapidement étendu ses activités au-delà de l’Hexagone. Dans les années 1980 et 1990, le groupe a amorcé une stratégie d’internationalisation, notamment en Europe, avant de viser plus intensivement le marché nord-américain au cours des deux dernières décennies. Aujourd’hui, les États-Unis représentent un marché central pour le groupe, à l’image de la stratégie de Publicis sur ce continent : il s’agit d’un territoire où la croissance externe et l’implantation locale sont décisives pour asseoir son leadership. L’histoire de Sonepar se caractérise par une succession de rachats d’OpCos dans différents pays, permettant de consolider sa position tout en intégrant progressivement des structures locales dans un réseau global cohérent. Cette stratégie reflète un modèle de croissance par acquisition, similaire à celui de Publicis, où le développement organique se combine à des mouvements ciblés de consolidation.
 
-### III.3.b Leader mondial de la distribution B2B de matériel électrique
+### Leader mondial de la distribution B2B de matériel électrique
 
 Le cœur de métier de Sonepar est la distribution de matériel électrique et électronique pour les professionnels : équipements de câblage, systèmes d’installation, solutions domotiques et dispositifs de sécurité. Le groupe propose également des services numériques et logistiques, tels que des plateformes e-commerce, des outils de gestion des commandes et des solutions de suivi des stocks, afin d’accompagner ses clients dans la digitalisation de leurs achats et opérations. Cette combinaison de distribution traditionnelle et de services numériques fait de Sonepar un acteur hybride, capable de répondre aux exigences de rapidité et de traçabilité du marché.
 
 La société se distingue par son rythme soutenu d’acquisitions, avec plusieurs entreprises intégrées chaque année dans divers pays. Cette dynamique lui permet de renforcer son maillage territorial et ses compétences sectorielles, mais elle soulève aussi des défis : l’intégration des filiales, l’harmonisation des pratiques et la standardisation des systèmes d’information peuvent générer des frictions, des coûts de transition et des risques opérationnels. De plus, bien que le groupe affiche une forte présence sur le marché américain, cette expansion rapide peut parfois créer une dépendance vis-à-vis des marchés étrangers, avec un impact direct sur la stratégie globale et la résilience financière du groupe.
 
-### III.3.c Un groupe aux identités plurielles
+### Un groupe aux identités plurielles
 
 L’organisation interne de Sonepar repose sur un modèle fédéral, où chaque filiale (_OpCo_) conserve une autonomie relative dans la gestion quotidienne tout en respectant les standards stratégiques et opérationnels du groupe. Cette structure permet de combiner flexibilité locale et efficacité globale, en harmonisant la finance, le numérique et la logistique, tout en conservant une proximité avec le client. Les OpCos sont regroupées sous des directions régionales, chacune supervisant la performance et la mise en œuvre des bonnes pratiques.
 
 Au sein du groupe, des fonctions centrales pilotent les programmes transversaux : la transformation digitale, les systèmes d’information, la supply chain et le développement durable. Cette centralisation vise à standardiser certaines opérations et à maximiser les synergies entre les filiales, mais elle peut parfois entrer en tension avec l’autonomie locale et la réactivité opérationnelle. Enfin, la politique de croissance par acquisition implique une intégration continue de nouvelles structures, ce qui nécessite un équilibre constant entre consolidation des compétences et adaptation aux spécificités locales. Cette approche révèle à la fois la force et les limites du modèle Sonepar : efficace pour créer un réseau mondial dense et compétitif, mais exigeante en termes de coordination, de gouvernance et de coûts.
 
-## III.4 Trois entreprises, trois cultures d'entreprise
-
-### III.4.a Des collaborateurs aux identités multiples
+## Des collaborateurs aux identités multiples
 
 Le statut de consultant confère une double identité, surtout quand le consultant participe à l'élaboration du livrable. Cette identité est d'autant plus complexe quand la maison-mère de l'entreprise de conseil développe elle aussi une identité forte.  
 Dans cette identité de dimension trois, on a d'abord Publicis Groupe. Le groupe tend à créer un sentiment d'appartenance, d'unité. J'en ai moi-même fait l'expérience au cours de mon alternance : entre évènement organisé à l'Adidas Arena pour fédérer l'ensemble des agences, ou encore un sweat-shirt unique distribué à tous les collaborateurs de Publicis. On fait partie de cette grande famille qu'est Publicis.  
 Mais le groupe Publicis ne pourrait exister sans ses composantes, dont fait partie Publicis Sapient. Là encore, une culture d'entreprise se distingue : je suis un Sapient. Cette identité fédère quant à elle sur les valeurs du consulting, et du numérique. On ne se sent pas communicants, mais acteurs du numérique. Là aussi, nous portons des marqueurs identitaires clairs : vocabulaire interne, méthodologie SPEED, organisation en capabilities, ou encore un discours permanent sur la « disruption » et le DBT. Ces éléments renforcent l'idée d'appartenir à une communauté de pratiques singulière, tournée vers l’innovation numérique et la transformation.
 Enfin, nous travaillons chez le client, et même si je n’en ai fait l’expérience qu’une seule année, certains collaborateurs Sapient y restent plusieurs années, accentuant le flou de leur identité professionnelle. Dans ce cadre, on partage des locaux, des projets, et même parfois une partie de la culture du client. On peut finir par se sentir intégré à l’entreprise pour laquelle on est en mission, sans pourtant en être réellement salarié. Cette proximité crée une identité hybride, qui peut être constructive, en ayant une compréhension du client, renforçant un sentiment d’appartenance au projet ; tout en étant une source de confusion. Être à la fois un Publicis, un Sapient et « presque » un Sonepar, c’est jongler avec des repères multiples, créant ainsi un rapport à l'entreprise complexe.
-
-### III.4.b Le développeur, une histoire de cols blancs ?
-
-Historiquement, le métier de développeur dans le conseil numérique s’inscrit dans la catégorie des « cols blancs ». Il est associé à un savoir intellectuel, à une activité de bureau, souvent perçue comme hautement qualifiée et créatrice de valeur ajoutée. Le consultant-développeur ne produit pas un bien matériel tangible, mais façonne des solutions technologiques, des lignes de code, des architectures logicielles : autant d’éléments immatériels qui participent à la transformation des entreprises.  
-Cependant, l’immersion prolongée dans les équipes clientes modifie cette perception. En participant à l’exécution opérationnelle des projets, le consultant endosse une posture plus « productive » que strictement stratégique. Il se rapproche ainsi de la figure du col bleu : engagé dans une activité concrète, répétitive parfois, où la valeur se mesure dans la réalisation effective plutôt que dans la seule conception. La routine des sprints agiles, le développement de fonctionnalités précises ou la résolution de bugs rapprochent symboliquement le consultant-développeur d’un rôle d’exécutant, au service d’un cahier des charges défini en amont.  
-À l’inverse, d’autres éléments renforcent l’appartenance au monde des cols blancs. Le vocabulaire managérial omniprésent, la place accordée à la stratégie, l’exposition régulière aux directions clients ou aux comités de pilotage maintiennent le consultant-développeur dans une sphère intellectuelle. Même lorsqu’il exécute, il reste porteur d’une légitimité « experte » et d’un capital symbolique qui le distingue d’un simple producteur de tâches techniques. Cette tension illustre bien l’ambivalence identitaire du collaborateur Sapient : oscillant entre conception et exécution, entre posture intellectuelle et contribution pratique, entre col blanc et col bleu.
 
 # Premières semaines de travail et considérations éthiques
 
@@ -302,13 +305,11 @@ Arriver dans l’équipe Watts, c’était franchir une nouvelle étape, et pas 
 
 Pour moi, l’enjeu n’était pas seulement d’apprendre un nouveau stack ou de comprendre les rouages d’un projet complexe : il s’agissait avant tout de m’intégrer dans une équipe déjà soudée, de trouver ma place parmi des profils expérimentés. Ce défi était d’autant plus grand que je suis naturellement timide, et que la prise de parole, l’initiative ou même le simple fait de demander de l’aide me demandaient un effort considérable. Pourtant, l’entreprise, c’est avant tout une expérience humaine : on ne travaille pas seul, on avance ensemble, on partage les réussites comme les difficultés.
 
-Dès les premiers jours, Carla a joué un rôle déterminant dans mon intégration. Son accueil chaleureux, sa disponibilité et sa capacité à mettre à l’aise ont été essentiels pour moi. Elle m’a guidé dans la découverte des rituels de l’équipe : les dailys, les refinements, les plannings, autant de moments où il fallait oser prendre la parole, exposer ses avancées ou ses blocages. Grâce à elle, j’ai pu progressivement dépasser ma timidité, comprendre le fonctionnement collectif et m’ouvrir aux autres. L’équipe Watts, par son écoute et sa bienveillance, m’a permis de transformer ce qui était un défi personnel en une véritable opportunité de croissance, humaine autant que professionnelle.
-
-## Bilan de cette rentrée
+Dès les premiers jours, Carla a joué un rôle déterminant dans mon intégration. Son accueil chaleureux, sa disponibilité et sa capacité à mettre à l’aise ont été essentiels pour moi. Elle m’a guidé dans la découverte des rituels de l’équipe : les dailies, les refinements, les plannings, autant de moments où il fallait oser prendre la parole, exposer ses avancées ou ses blocages. Grâce à elle, j’ai pu progressivement dépasser ma timidité, comprendre le fonctionnement collectif et m’ouvrir aux autres. L’équipe Watts, par son écoute et sa bienveillance, m’a permis de transformer ce qui était un défi personnel en une véritable opportunité de croissance, humaine autant que professionnelle.
 
 # Rester SAFe pour collaborer
 
-<!-- TODO: introduire la GDP -->
+Dans un projet web, que l'on soit seul, ou à plusieurs, il est important de mettre en place une gestion des tâches à effectuer. Cela permet de tenir des délais temporels, permettant également de tenir un budget. Et c'est en ce sens que la gestion de projet apparaît comme indispensable dans un projet web.
 
 ## Agile, mais pas flexible
 
@@ -328,7 +329,7 @@ Concrètement, Sonepar a fait le choix d'organiser des _program increments_ de 5
 - Le _Sprint Planning_ ouvre chaque sprint. L’équipe sélectionne les tâches à livrer et fixe ses objectifs, par exemple développer une nouvelle fonctionnalité. Ce moment trace la feuille de route du cycle de deux semaines.
 - La _Demo_ vient en clôture de sprint. Les équipes montrent concrètement ce qu’elles ont réalisé, qu’il s’agisse d’un parcours client ou d’un prototype. C’est l’occasion de recueillir des retours immédiats et d’ancrer la valeur produite.
 - La Rétrospective suit la démo. L’équipe analyse ce qui a bien fonctionné et ce qui doit être amélioré, par exemple la communication entre sites éloignés. Ce rituel nourrit l’amélioration continue.
-- Enfin, le _PI Planning_ donne le tempo global. Tous les 10 semaines, l’ensemble des équipes se réunit pendant deux jours pour définir la vision de l’incrément, planifier les dépendances et fixer les jalons. C’est la grande boussole collective.
+- Enfin, le _PI Planning_ donne le tempo global. Toutes les 10 semaines, l’ensemble des équipes se réunit pendant deux jours pour définir la vision de l’incrément, planifier les dépendances et fixer les jalons. C’est la grande boussole collective.
 
 ## SAFe est un _framework_ agile ?
 
@@ -339,26 +340,30 @@ Cela transforme la méthodologie en un produit. Pratiques aux valeurs financièr
 
 Malgré le contenu intellectuel et décisionnel que requièrent les rituels SAFe, la structuration rigoureuse des sprints, _program increments_ et autres cérémonies impose un rythme très codifié. Cette régularité crée une forme de routine qui rappelle, par certains aspects, le travail organisé et répétitif associé aux cols bleus, même si les développeurs restent mobilisés sur des tâches de réflexion et de conception typiques des cols blancs. SAFe illustre ainsi une hybridation : il combine la créativité et l’autonomie intellectuelle attendues dans le conseil et le numérique avec des logiques de coordination et de cadence qui s’apparentent à celles des environnements plus industriels. On y retrouve donc un paradoxe : un travail à la fois intellectuel et fortement structuré, oscillant entre liberté et standardisation.
 
-<!-- TODO: revoir -->
+<!-- TODO: HOY -->
 # Storybook, Percy et Sample App : pourquoi et pour qui ?
 
 Dans le cadre d’une _Digital Factory_, la qualité du code et de l’expérience utilisateur est au cœur des préoccupations. Pour y parvenir, nous avons mis en place une **stack technique dédiée à la conception, à la documentation et à la validation visuelle des composants**. Cette stack répond à deux besoins principaux : fournir aux équipes un environnement de développement cohérent et permettre aux clients internes de visualiser et tester les composants avant leur intégration. Elle se compose de **React, Web Components, Storybook, Percy et la Sample App**.
 
+<!-- TODO: HOY -->
 ## React : le socle de nos composants
 
 React est le framework choisi pour la création de composants réactifs et modulaires. Il permet de gérer facilement l’état, de structurer les interfaces et d’assurer une réutilisabilité maximale. Pour les développeurs, React offre un écosystème mature, une communauté active et des outils de debug performants. Pour les designers et chefs de projet, c’est la garantie que les composants livrés respectent le design system et peuvent évoluer sans risque de régressions fonctionnelles.
 
+<!-- TODO: HOY -->
 ## Web Components : interopérabilité et standardisation
 
 Parallèlement à React, certains composants sont développés en Web Components via Lit. Cette technologie assure **l’indépendance vis-à-vis du framework**, permettant d’intégrer ces composants dans différents projets, même non React. Les Web Components offrent également des standards web robustes, garantissant la compatibilité et la pérennité des composants. Cela répond à un besoin d’interopérabilité et de portabilité pour l’ensemble de l’organisation.
 
+<!-- TODO: HOY -->
 ## Storybook : documenter et tester les composants
 
-Storybook est l’outil central de **documentation et de développement isolé** des composants. Chaque composant est présenté dans un environnement dédié, avec ses différentes variantes (_stories_) et ses interactions possibles. Pour les développeurs, Storybook facilite le test, la débogue et le partage des composants. Pour les designers et Product Owners, il fournit un aperçu clair et accessible de l’UI, sans nécessité de lancer l’application complète.
+Storybook est l’outil central de documentation et de développement isolé des composants. Chaque composant est présenté dans un environnement dédié, avec ses différentes variantes (_stories_) et ses interactions possibles. Pour les développeurs, Storybook facilite le test, la débogue et le partage des composants. Pour les designers et Product Owners, il fournit un aperçu clair et accessible de l’UI, sans nécessité de lancer l’application complète.
 
+<!-- TODO: HOY -->
 ## Percy : vérifier l’intégrité visuelle
 
-Percy complète Storybook en offrant **une validation visuelle automatisée**. Chaque composant ou interface est comparé à une version de référence pour détecter toute régression visuelle. Cela permet de s’assurer que les changements n’altèrent pas le rendu attendu, garantissant la stabilité visuelle du design system et la confiance des équipes métier.
+Percy complète Storybook en offrant une validation visuelle automatisée. Chaque composant ou interface est comparé à une version de référence pour détecter toute régression visuelle. Cela permet de s’assurer que les changements n’altèrent pas le rendu attendu, garantissant la stabilité visuelle du design system et la confiance des équipes métier.
 
 ## Sample App : un terrain de démonstration
 
@@ -513,10 +518,11 @@ Je réalisais alors que je pouvais moi aussi apporter à mon échelle, contribue
 
 C'est après quelques 172 commits, que je peux enfin dresser le portrait de mon alternance. Une alternance aux débuts singuliers. Grâce à la gentillesse et la bienveillance d'Alexis, me voilà catapulté dans un processus complexe de recrutement. Je découvre non pas une, mais trois entreprises différentes. Cela a créé en moi presque comme une crise identitaire : ai-je ma place ici ? C'est un monde que je connais pas, c'est un ordre de grandeur que je ne connais pas. Plus que des difficultés techniques, j'ai aussi dû affronter mes propres peurs. Aller de l'avant, m'ouvrir aux autres, communiquer. C'est en fait une aventure humaine que j'ai vécu.
 
-Après avoir documenté, débuggué, amélioré, des composants React, j'ai dû créer de toute pièce des web components. J'ai intégré tous les principes SAFe, participant notamment aux nombreux rituels, slalomant entre _dailies_, _PI Plannings_ et démos. J'ai appris ce qu'était réellement la gestion de projet. Plus que cela, en pratiquant l'anglais, et en combattant ma timidité, j'ai développé mes compétences de communiquant : un comble pour un Publicis.
+Après avoir documenté, débuggué, amélioré, des composants React, j'ai dû créer de toute pièce des web components. J'ai intégré les principes SAFe, participant notamment aux nombreux rituels, slalomant entre _dailies_, _PI Plannings_ et démos. J'ai appris ce qu'était réellement la gestion de projet. Plus que cela, en pratiquant l'anglais, et en combattant ma timidité, j'ai développé mes compétences de communiquant : un comble pour un Publicis.
 
-→ difficultés
-→ déménagement
+Cette année Publicis m'aura même permis de découvrir un déménagement d'entreprise, passant des locaux de Gambetta, à ceux de la rue de Courcelles à Paris.
+
+<!-- TODO: illustrer par photo -->
 
 ## `git log | grep alternance`
 
@@ -528,9 +534,9 @@ C'est peut-être même grâce à ce rythme que j'ai pu puiser pleins de bonnes p
 La semaine entière de cours ne m'a porté préjudice qu'une seule fois. Cette anecdote nous replonge à l'époque où le Design System stockait son _repository_ git sur Azure (service cloud de Microsoft). Je travaillais alors normalement, récupérant le code, et créant de temps à autres des branches distantes pour ajouter des fonctionnalités. Le temps de l'école étant venu, je m'absentais alors une semaine entière.  
 Dès mon retour, je vais sur la plateforme pour consulter les évolutions du code en mon absence. Telle ne fut pas ma surprise que de découvrir qu'on m'avait supprimé les droits d'accès au _repository_. J'exprimais alors mon inquiétude auprès de Julien.  
 Alors, j'ai vite compris ce qu'il s'était passé. En réalité, en une semaine, le projet complet avait migré sur GitHub, il n'existait donc plus sur Azure, le mystère était donc résolu.
-Ce préjudice est à relativiser, tant il ne m'a finalement pas porté… préjudice. En revanche il montre qu'il peut se passer énormément de choses en une semaine. C'est là que l'on comprend qu'une alternance où l'on passe plus d'une semaine peut s'avérer compliqué pour ne pas manquer de choses en entreprise. 
+Ce préjudice est à relativiser, tant il ne m'a finalement pas porté… préjudice. En revanche il montre qu'il peut se passer énormément de choses en une semaine. C'est là que l'on comprend qu'une alternance où l'on passe plus d'une semaine à l'école peut s'avérer compliqué pour ne pas manquer de choses en entreprise. 
 
-En somme, j'ai l'impression d'avoir gagné en maturité, en maturité profesionnelle notamment. Je me suis formé aux pratiques professionnelles, j'ai gagné en technique, et j'ai développé mon sens de la communication (avec une nette affirmation de moi-même en anglais !). Mais je pense que ma plus grande leçon aura été ce que j'ai appris sur moi, ce travail introspectif mené tout au long de l'année.
+En somme, j'ai l'impression d'avoir gagné en maturité, en maturité professionnelle notamment. Je me suis formé aux pratiques en entreprise, j'ai gagné en technique, et ai développé mon sens de la communication (avec une nette affirmation de moi-même en anglais !). Mais je pense que ma plus grande leçon aura été ce que j'ai appris sur moi, ce travail introspectif mené tout au long de l'année.
 
 # Le développeur n'est plus un col blanc
 
@@ -539,7 +545,7 @@ Dans l’imaginaire commun, le col blanc est un salarié qui effectue un travail
 
 Pourtant, il semble que le développeur de la _Digital Factory_ s'éloigne peu à peu de l’image traditionnelle des cols blancs.  
 Tout d'abord, plus que jamais, sa productivité est mesurée. L'outil informatique, a permis la créations de pleins de métiers, ainsi que la transformation de nombreux autres. Mais il est également devenue une porte dérobée de notre intimité. Il est un outil de mesure, et est devenu la badgeuse. On ne pointe plus sa carte au début et à la fin de la journée, on se connecte sur Teams, et on garde le voyant vert jusqu'à la fin de la journée.  
-Pire encore, l'informatique génère des données, que l'on peu ensuite analyser. Les mathématiques peuvent donc aider à mesurer la productivité, qui au sens de l'entreprise, s'appelle la rentabilité. Les exemples sont nombreux, et pour le développeur, on pourrait citer la mesure de fréquence des _commits_ et _pull requests_. La rapidité d'exécution pour un ticket donné dans Jira. Ce modèle donne des allures de taylorisme : le moindre geste est chronométré et analysé. Cela n'est pas sans rappeler les usines, où est justement né le travail à la chaîne.
+Pire encore, l'informatique génère des données, que l'on peu ensuite analyser. Les mathématiques peuvent donc aider à mesurer la productivité, qui au sens de l'entreprise, s'appelle la rentabilité. Les exemples sont nombreux, et pour le développeur, on pourrait citer la mesure de fréquence des _commits_ et _pull requests_. La rapidité d'exécution pour un ticket donné dans Jira. Ce modèle donne des allures de taylorisme : le moindre geste est chronométré et analysé. Cela n'est pas sans rappeler les usines, où est justement né le travail à la chaîne. Et on pourrait même aller plus loin. Sur site, les locaux sont organisés en open space. Bien qu'on puisse trouver nombre de qualités à cette organisation, elle a aussi la fâcheuse tendance à accentuer la surveillance mutuelle et constante.
 
 De plus, il semblerait que Publicis Sapient pratique de _l'offshoring_, en déléguant notamment certaines missions dans des pays où le coup de la main d'œuvre est moins cher, avec par exemple une présence de Publicis Sapient. Les équipes qui travaillent à distance sont mises à disposition sur des projets client, tel que le projet Sonepar.  
 Pourtant, il faut être critique : la présence de Publicis Sapient en Inde peut s'expliquer par la présence de Sonepar également en Inde. On y trouverait donc une logique à ce que le consultant soit installé au plus près de son client. Toutefois, on notera que la main d'œuvre pour des ingénieurs logiciel en Inde reste moins chère. Indéniablement, Publicis profite ainsi d'une expertise à moindre coup. Il existe probablement une forme _d'offshoring_.  
