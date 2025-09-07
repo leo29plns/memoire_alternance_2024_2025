@@ -10,7 +10,7 @@ C'est ainsi que j'ai pris la décision d'opter pour une forme un tant soit peu m
 Car oui, c'est bien la créativité qui a guidé toutes ces lignes de code, et non l'inverse. C'est de toutes ces idées nouvelles qu'ont émané un schéma technique qui n'a que pour seul but de desservir cette même créativité.
 
 Voilà donc pourquoi cet écrit reprendra de temps à autres les codes du récit ; toujours dans la même optique : exposer une situation initiale pour aboutir à une situation finale (cf. le schéma narratif).  
-Le mémoire étant un exercice de développement de la pensée, ayant pour objectif in fine d'exprimer une opinion [@MemoireEcrit2024], il était pour moi important qu'il soit un reflet personnel, adoptant un style qui m'est propre.
+Le mémoire étant un exercice de développement de la pensée, ayant pour objectif _in fine_ d'exprimer une opinion [@MemoireEcrit2024], il était pour moi important qu'il soit un reflet personnel, adoptant un style qui m'est propre.
 
 Aussi, cet écrit ne prétend aucunement à une expertise dans un domaine quelconque. C'est un essai invitant à la réflexion et à la remise en question.
 
@@ -34,15 +34,15 @@ This dissertation recounts the experience of a work-study student at Publicis Sa
 
 # Cadre du mémoire {-}
 
-## Contexte général
+## Contexte général {-}
 
 Le BUT MMI de Champs-sur-Marne impose la réalisation d'une alternance en entreprise pour la troisième année de formation. Cet exercice veut favoriser l'insertion professionnelle des étudiants. Pour rendre compte de cette expérience, les étudiants se soumettent à la rédaction d'un mémoire d'alternance, contexte dans lequel ce mémoire est né.
 
-## Objectifs du mémoire
+## Objectifs du mémoire {-}
 
 Ce mémoire a pour objectif premier de montrer une introspection personnelle par la réalisation d'une alternance au sein d'une entreprise. Ce mémoire veut rendre compte d'une progression, d'une évolution personnelle et professionnelle, tout en montrant un parallèle avec la formation étudiée.
 
-## Démarche méthodologique
+## Démarche méthodologique {-}
 
 Pour guider la rédaction de ce document, je me suis appuyé sur des interviews que j'ai réalisées auprès de mes collègues. Celles-ci m'ont aidé notamment à établir la structure de ce document.
 
@@ -50,9 +50,9 @@ Je me suis également appuyé sur des observations personnelles tout au long de 
 
 Enfin, j'ai récolté nombre d'informations et de données depuis Internet. La source de ces informations est accessible depuis la bibliographie de ce document.
 
-## Structure du mémoire
+## Structure du mémoire {-}
 
-### La forme guidée par des valeurs
+### La forme guidée par des valeurs {-}
 
 Vous le comprendrez au cours de votre lecture de ce document : l'éthique est un point important de ma réflexion. Pour être fidèle à cette idée, j'ai décidé de suivre les principes suivants pour guider ma rédaction :
 
@@ -61,7 +61,7 @@ Vous le comprendrez au cours de votre lecture de ce document : l'éthique est un
 - **Accessibilité** Afin d'éviter l'exclusion d'un trop grand nombre de publics, ce document a été réalisé en Markdown et est exporté avec Pandoc. Cela permet de réaliser des exports notamment vers HTML avec une syntaxe compatible avec les lecteurs d'écran par exemple.
 - **Approche humaine** Ce mémoire se base sur diverses interviews réalisées avec mes collègues, m'ayant permis de réaliser ainsi la structure de ce document.
 
-## Outils utilisés
+## Outils utilisés {-}
 
 Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur un cadre rigoureux pour traiter le sujet de manière structurée. Ainsi, ont été utilisés les outils suivants afin d'adopter ce cadre constant.
 
@@ -70,9 +70,9 @@ Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur
 - **Git** et **GitHub** ont permis le versionnement intégral de ce mémoire. Par-delà la simple fantaisie du développeur, elle me permet d'assurer de la redondance, et de créer des automatisations pour l'export.
 - **ChatGPT**  a été utilisé pour la relecture de ce document, ainsi que pour la réalisation de recherches sur le sujet.
 
-## Utilisation de l'intelligence artificielle
+## Utilisation de l'intelligence artificielle {-}
 
-Ce document a été réalisé avec une aide non négligeable de l'intelligence artificielle, notamment grâce à ChatGPT, un outil développé par OpenAI. L'utilisation de cet outil peut paraître incongrue, surtout en considération de mes valeurs morales. Pourtant, l'IA s'impose comme l'outil de demain, et elle en fait une belle démonstration ici. ChatGPT m'a aidé à corriger les fautes d’orthographe qui se sont glissées dans ce document. ChatGPT se trouve être également un formidable moteur de recherche, parvenant à de meilleurs résultats que Google Scholar pour des recherches dans la littérature scientifique. Enfin, cet outil m'a également permis de trouver l'inspiration pour certaines tournures de phrases, certains sujets.  
+Ce document a été réalisé avec une aide non négligeable de l'intelligence artificielle, notamment grâce à ChatGPT, un outil développé par OpenAI. L'utilisation de cet outil peut paraître incongrue, surtout en considération de mes valeurs morales. Pourtant, l'IA s'impose comme l'outil de demain, et elle en fait une belle démonstration ici. ChatGPT m'a aidé à corriger les fautes d’orthographe qui se sont glissées dans ce document. ChatGPT se trouve être également un formidable moteur de recherche, parvenant à de meilleurs résultats que Google Scholar pour des recherches dans la littérature scientifique. Enfin, cet outil m'a permis de trouver l'inspiration pour certaines tournures de phrases, certains sujets.  
 Cet outil n’a pas remplacé ma réflexion ni mon travail d’écriture, mais il a contribué à en améliorer la clarté et la précision. À votre initiative, je pourrais vous donner davantage de précisions, par souci de transparence.
 
 # Travailler dans le _Digital_
@@ -138,7 +138,7 @@ C'est à peine après avoir eu le temps de souffler avec l'équipe, et de célé
 
 ## L'embauche dans le secteur de la tech : un processus complexe
 
-S'il y a quelques vérités admises sur l'embauche dans le secteur de la tech, elles relèvent avant tout d’un processus long, aux étapes multiples. Malgré le fait qu’une personne m’ait déjà ouvert les portes de l’entreprise, j’ai tout de même dû me soumettre aux exigences portées par le processus d’embauche de l'entreprise.  
+S'il y a quelques vérités admises sur l'embauche dans le secteur de la tech, elles relèvent avant tout d’un processus long, aux étapes multiples. Malgré le fait qu’une personne m’ait déjà ouvert les portes de l’entreprise, j’ai tout de même dû me soumettre aux exigences portées par le processus d’embauche.  
 Quelques semaines se sont écoulées depuis ma soutenance de fin d'année. Alexis est revenu vers moi, afin de me proposer un entretien sur Discord. Il m'y explique quelles pourront être mes missions, quels pourront être les projets sur lesquels je pourrais travailler. Pour des raisons évidentes d'impartialité, la suite du processus ne se déroulera pas avec Alexis.
 
 C'est Iago [Ducardonnet]{.smallcaps}, mon futur recruteur, qui initiera officiellement mon embauche, par le biais d'un appel téléphonique. L'appel, très succinct, permet à mon recruteur et moi-même de nous présenter. C'est une première étape permettant de planifier un second temps : à nouveau un entretien téléphonique, mais plus long.
@@ -185,10 +185,10 @@ Dans les années 1990, Maurice [Lévy]{.smallcaps} entreprend un virage numériq
 ### Aller au-delà de la publicité
 
 À ce jour, le groupe Publicis continue d’œuvrer dans le secteur de la publicité, et plus largement de la communication. Le groupe revendique d’ailleurs être le premier mondial. À l'origine de cette ascension, c'est l'exportation notamment aux États-Unis. C'est sur le nouveau continent que Publicis générera la plus grande part de son chiffre d'affaires, et les exemples ne manquent pas.  
-La célèbre campagne « _I'm Lovin' It_ » du fast food américain McDonald's, ou encore _The Force_ de Volkswagen en 2011, mettant en scène un enfant déguisé en Dark Vador démontrent la force d'ancrage de Publicis. Coca-Cola, Disney, Armani, Lancôme et même Pfizer, tous ces géants de l'industrie ont fait appel à Publicis pour gérer leur communication. Selon Publicis, en France, au cours de sa vie, un téléspectateur voit en moyenne une publicité sur trois à la télévision qui est réalisée par une entité du groupe.
+La célèbre campagne « _I'm Lovin' It_ » du fast food américain McDonald's, ou encore _The Force_ de Volkswagen en 2011, démontrent la force d'ancrage de Publicis. Coca-Cola, Disney, Armani, Lancôme et même Pfizer, tous ces géants de l'industrie ont fait appel à Publicis pour gérer leur communication. Selon Publicis, en France, au cours de sa vie, un téléspectateur voit en moyenne une publicité sur trois à la télévision qui est réalisée par une entité du groupe.
 Cette omniprésence traduit une influence considérable sur les habitudes de consommation et sur la culture populaire, là où la publicité devient vecteur de récits, d'émotions ; mais aussi de controverse.
 
-La publicité est parfois mal vue. Certaines campagnes soulèvent même des polémiques qui dépassent la simple esthétique de clip. La publicité contribue à façonner nos comportements, nos désirs, et parfois même notre personnalité. Cet article _Manipulation: An integrative framework of unethical influence in marketing_ @arango-kureManipulationIntegrativeFramework2025 [] paru dans la revue _Journal of Business Research_ décrit un phénomène de manipulation. Conditionner le choix du consommateur, sans consentement libre et éclairé, tout en profitant vulnérabilité cognitives :
+La publicité est parfois mal vue. Certaines campagnes soulèvent même des polémiques qui dépassent la simple esthétique de clip. La publicité contribue à façonner nos comportements, nos désirs, et parfois même notre personnalité. Cet article _Manipulation: An integrative framework of unethical influence in marketing_ @arango-kureManipulationIntegrativeFramework2025 [] paru dans la revue _Journal of Business Research_ décrit un phénomène de manipulation. Conditionner le choix du consommateur, sans consentement libre et éclairé, tout en profitant de vulnérabilités cognitives :
 
 > « Using this knowledge to influence people’s decision-making can be characterized as manipulation through the exploitation o cognitive vulnerabilities. »
 
@@ -216,29 +216,24 @@ Pour comprendre l'origine de Publicis Sapient, il faut remonter à la fondation 
 
 Contrairement à ce que ce nom suggère, une entreprise de conseil ne fait pas que… conseiller. Elle accompagne les organisations dans leurs choix stratégiques mais fournit aussi les moyens concrets de mettre en œuvre ses recommandations. Autrement dit, le livrable ne s’arrête pas à un rapport ou à une présentation : il s’accompagne de ressources humaines, techniques et organisationnelles permettant de traduire les orientations en actions réelles. Chez Publicis Sapient, ce sont parfois les mêmes consultants qui, après avoir conçu la stratégie, participent directement à son exécution aux côtés des équipes clientes.
 
-C’est précisément ce qui fonde la spécificité de Publicis Sapient : son approche du **DBT, _Digital Business Transformation_**. Ce concept désigne un accompagnement global et intégré, allant de la vision stratégique jusqu’à la réalisation opérationnelle, avec un accent marqué sur le numérique. Les programmes de DBT s’appuient sur des équipes pluridisciplinaires – mêlant stratégie, design, ingénierie logicielle et exploitation de la donnée – organisées en **plateaux projets** ou en **feature teams**. Ces interventions s’inscrivent souvent dans la durée (18 mois à plusieurs années) et mobilisent des budgets conséquents, à la hauteur des transformations structurelles opérées.
+C’est précisément ce qui fonde la spécificité de Publicis Sapient : son approche par le DBT, ou _Digital Business Transformation_. Ce concept désigne un accompagnement global des entreprises clientes, pour transformer un existant, grâce au numérique. Le DBT repose sur des équipes pluridisciplinaires, groupées selon stratégie, design, ingénierie logicielle et exploitation de la donnée. Ces interventions s’inscrivent souvent dans la durée (d'une dizaine de mois à plusieurs années), et mobilisent des budgets conséquents. C'est une transformation structurelle en profondeur.  
+L'entreprise de grande distribution Carrefour a par exemple fait appel à Publicis Sapient pour moderniser sa plateforme de commande de produits pour les clients. 
 
 ### À toute allure : le modèle SPEED
 
-Pour répondre à cette ambition, l’organisation interne de Publicis Sapient repose sur les **capabilities** (ou _capas_), regroupées sous le modèle méthodologique **SPEED** :
+Pour répondre à cette ambition, l’organisation interne de Publicis Sapient repose sur des _capabilities_, regroupées sous le modèle SPEED :
 
-* **Strategy** : définir la vision business, identifier les leviers de valeur et aligner la stratégie avec la mission de l’entreprise.
+- _Strategy_ : définir la vision _business_, et identifier les quels en sont les leviers ;
+- _Product_ : concevoir et piloter des produits numériques selon des méthodes agiles ;
+- _Experience_ : créer des expériences en mobilisant le design et la recherche centrée utilisateur ;
+- _Engineering_ : développer des solutions techniques robustes et évolutives pour répondre à la logique de transformation ;
+- _Data & AI_ : exploiter les données et l’intelligence artificielle, afin d'automatiser des processus et aider les prises de décision.
 
-* **Product** : concevoir et piloter des produits numériques selon des méthodes agiles (Agile, Lean, DevOps), avec un objectif de valeur et de rapidité.
+Ces _capabilities_ structurent les corps de métier de l’entreprise : chaque collaborateur est rattaché à une capability, mais les projets mobilisent généralement plusieurs d’entre elles en parallèle.
 
-* **Experience** : créer des expériences utilisateurs engageantes et personnalisées, en mobilisant le design et la recherche centrée sur l’humain.
+Publicis Sapient se définit ainsi comme le bras technologique du groupe Publicis, capable non seulement de conseiller ses clients sur leur transformation numérique, mais aussi de concevoir, développer et déployer les solutions concrètes à leurs côtés.
 
-* **Engineering** : développer des solutions technologiques robustes, évolutives et innovantes, capables de soutenir les transformations à grande échelle.
-
-* **Data & AI** : exploiter la donnée et l’intelligence artificielle pour générer des insights, automatiser des processus et renforcer la prise de décision.
-
-Ces _capas_ structurent les talents de l’entreprise : chacun des collaborateurs est rattaché à une capability, mais les projets mobilisent généralement plusieurs d’entre elles en parallèle. Ainsi, une feature team peut réunir des experts de la donnée, des ingénieurs logiciels, des designers et des consultants en stratégie, travaillant de concert au service du client.
-
-Publicis Sapient se définit ainsi comme le **bras technologique du groupe Publicis**, capable non seulement de conseiller ses clients sur leur transformation numérique, mais aussi de concevoir, développer et déployer les solutions concrètes qui la rendent possible.
-
-Cette approche ambitieuse, fondée sur la complémentarité des _capas_ et sur une exécution intégrée de bout en bout, présente toutefois un revers : son coût particulièrement élevé. Publicis Sapient est reconnu pour sa rapidité d’exécution, sa capacité à atteindre les objectifs fixés, et sa volonté assumée d’être « disruptif » dans les marchés traditionnels. Mais cette efficacité a un prix : les prestations de DBT s’avèrent globalement plus onéreuses que celles proposées par d’autres cabinets de conseil ou agences numériques.
-
-Si certains clients acceptent ce surcoût en échange d’une transformation menée tambour battant, d’autres commencent à en percevoir les limites. C’est notamment le cas de Sonepar, acteur mondial de la distribution de matériel électrique, qui a choisi d’externaliser certaines activités après avoir collaboré avec Publicis Sapient. Ce type de décision illustre un risque pour le modèle : à trop miser sur la vitesse et l’exhaustivité de l’accompagnement, le groupe s’expose à une perception de dépendance coûteuse, susceptible de pousser certains clients à arbitrer entre la qualité du service et la soutenabilité financière.
+Cette approche ambitieuse, fondée sur la complémentarité des _capabilities_ et sur un accompagnant de bout en bout, présente toutefois un revers : son coût particulièrement élevé. Publicis Sapient est reconnu pour sa rapidité d’exécution, sa capacité à atteindre les objectifs fixés, et même sa volonté assumée d’être « disruptif ». Mais cette efficacité a un prix : le DBT s’avère globalement plus onéreux que ce qui est proposé par d’autres cabinets de conseil ou agences numériques.
 
 <!-- TODO: revoir -->
 ### DBT : le modèle pour éviter un nouveau Kodak
