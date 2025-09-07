@@ -30,21 +30,21 @@ Mélanie et Julien
 
 # Cadre du mémoire {-}
 
-## 1. Contexte général
+## Contexte général
 
 Je dois faire une alternance après MMI, avec un livrable à la fin : le mémoire + soutenance
 
-## 2. Objectifs du mémoire
+## Objectifs du mémoire
 
 Rendre compte d'une progression, d'une évolution personnelle et professionnelle, en se référant à MMI.
 
-## 3. Démarche méthodologique
+## Démarche méthodologique
 
 ITWs + observation + données provenant internet
 
-## 4. Structure du mémoire
+## Structure du mémoire
 
-### 4.a La forme guidée par des valeurs
+### La forme guidée par des valeurs
 
 éthique...
 - Libre
@@ -53,18 +53,18 @@ ITWs + observation + données provenant internet
 - Approche humaine (cf. centré utilisateur / empathie)
 - Respect de la vie privée (données personnelles)
 
-### 4.b La rigueur au service de la créativité
+### La rigueur au service de la créativité
 
 Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur un cadre rigoureux pour traiter le sujet de manière structurée.
 
-## 4. Outils utilisés
+## Outils utilisés
 
 - Zettlr
 - Zotero + BetterBibTeX
 - Git et GitHub
-- ChatGPT pour la relecture uniq. + anonymisation (tout en pensant aux algos, pour ne pas leaker avec des déductions par fingerprint)
+- ChatGPT pour la relecture + recherche
 
-# I. Travailler dans le _Digital_
+# Travailler dans le _Digital_
 
 Ça y est, j'y suis ! Après trois mois de travail consécutif au sein du Groupe Progress, je peux enfin le dire : j'ai réalisé ma première expérience professionnelle.
 
@@ -107,7 +107,7 @@ Cette interrogation sur le statut du développeur au sein de la _Digital Factory
 Or, le terme de _Digital Factory_ soulève un paradoxe : le travail des développeurs est à la fois créatif et technique, mais il peut être aussi structuré, répétitif et encadré, rappelant des aspects du travail ouvrier.  
 Dès lors, une question survient : la _Digital Factory_ constitue-t-elle une organisation créative et autonome, à l'image des cols blancs, ou bien reproduit-elle les logiques de l'industrie, et le travail routinier propre aux cols bleus ?
 
-# II. Accéder à l'alternance : un parcours singulier
+# Accéder à l'alternance : un parcours singulier
 
 Il y a une caractéristique propre au BUT MMI[^butmmi], et aux BUT de manière générale : c'est le caractère professionnalisant de la formation. Pour atteindre cet objectif, on propose aux étudiants de s'immiscer dans des applications très concrètes pour se familiariser à leur futur métier. Matériellement, c'est ce que l'on appelle des projets, ou Situation d'Apprentissage et d'Évaluation. Ces projets sont organisés tout au long de l'année, et servent à mettre en pratique la théorie, et même à aller au-delà.
 
@@ -157,7 +157,7 @@ Cet élément, isolé de son contexte, peut paraître futile, anecdotique. Pourt
 
 Et c'est justement dans cette culture que s'inscrit le travail du développeur. Ainsi, pour comprendre la place du développeur dans l'entreprise, et donc au sein de la _Digital Factory_, il faut d'abord mettre en contexte cette culture d'entreprise : regarder comment l'entreprise décide, organise, et valorise ses collaborateurs.
 
-# III. Consultant dans un groupe publicitaire au service d’un distributeur électrique
+# Consultant dans un groupe publicitaire au service d’un distributeur électrique
 
 Si vous n'avez pas compris le titre, rassurez-vous, c'est tout à fait normal. Mon alternance m'a amené à travailler pour trois entreprises distinctes. D'abord, Publicis Groupe, c'est tout simplement la maison-mère de Publicis Sapient. Publicis Sapient, ou PS, est quant à elle une entreprise de conseil, ou plus précisément de _consulting_. Ses employés, eux, sont envoyés en mission chez des clients, parmi lesquels figure Sonepar, un distributeur électrique. Ainsi, pour comprendre la culture d'entreprise appliquée au sein de la _Digital Factory_, il faut d'abord comprendre ce qu'elle est dans ces différentes entités.
 
@@ -362,7 +362,15 @@ Percy complète Storybook en offrant **une validation visuelle automatisée**. C
 
 ## Sample App : un terrain de démonstration
 
-Enfin, la Sample App sert de **laboratoire pratique**, montrant les composants en situation réelle. Elle permet aux développeurs de vérifier l’intégration, aux designers de valider le rendu et aux Product Owners de se projeter dans l’expérience utilisateur finale. C’est un outil de communication et de validation, qui complète Storybook et Percy en offrant une perspective concrète du produit.
+Comme l'a formulé mon camarade Dan, au cours de ma formation MMI, « tester, c'est douter ». Cette formulation, bien qu'évidemment ironique, est intéressante pour comprendre que le développeur néglige parfois la phase de tests, notamment celle en conditions réelles.  
+Après tout, pourquoi devrions-nous créer des tests alors que chaque composant est documenté, illustré, sandboxé au sein du Storybook ? Malgré toutes les qualités de cet outil, il ne pourra jamais rendre compte d'une expérience de développement complète : des lignes de codes pour intégrer le composant, jusque son fonctionnement en contexte, au sein d'une application.
+
+Et c'est ainsi que la Sample App, ou application de démonstration, est née. Celle-ci remplit deux objectifs : tester une intégration par le code pour les développeurs, et montrer le composant dans un contexte donné.  
+En premier lieu, elle sert de bac à sable : le développeur peut y intégrer un composant, comme en production,  afin de vérifier qu’il fonctionne correctement avec les dépendances réelles, et détecter les éventuelles incohérences qui seraient invisibles si le composant est isolé. Par exemple, le composant pourrait mal réagir dans un contexte `grid`, ou `flexbox`, à l'intérieur d'un autre composant, etc.  
+Un autre point qui peut échapper au développeur : tous les salariés de l'entreprise ne sont pas développeurs. C'est presque anodin, mais tout le monde n'a pas les compétences et le savoir pour comprendre l'utilité de Storybook. Plus encore, Storybook ne permet pas de se projeter et d'imaginer une plateforme de e-commerce à partir de boutons et d'icônes.  
+C'est pour ces raisons que la Sample App est née.
+
+Accessible à toutes les personnes du programme, la Sample App est une plateforme de e-commerce fictive créée en Next.js. Son but : montrer à moindre échelle l'ensemble des composants au travers de pages produits, d'une _homepage_, d'un panier de commande et même de la page « mon compte » pour illustrer les composants de formulaire. Cette Sample App permet à Watts de tester ses composants dans une application. Mais également, elle permet aux développeurs externes de comprendre comment les composants ont été implémentés. Enfin, la Sample App permet à toutes les personnes non-initiées au développement de tester les composants, et de se faire une idée de leur rendu une fois en production, grâce à un contexte cohérent.
 
 # Comprendre puis apprendre, imiter et créer
 
@@ -424,52 +432,177 @@ Une fois cette étape réalisée, il ne reste plus que quelques étapes. Il faut
 
 ## Accompagner dans l'usage
 
-Dans le développement web, 
+Dans le développement web, il y a toutes ces missions auxquelles on pense, développement de code et revue, React, tests unitaires, etc. Mais il y a aussi toutes ces choses qui ne viennent pas directement à l'esprit. L'une d'elles : le support technique pour nos _consumers_. Malgré avoir documenté nos composants, de proposer différents outils pour aider dans l'utilisation de nos composants, mais également en ayant adopté une conception détachée du consommateur final, nous devons tout de même être à l'écoute des retours.
 
-## La Sample App, pour tester en condition
-→ travail de la sample App
+Ces retours prennent forme dans ce qu'on appelle un _channel_ Teams. Il s'agit d'un groupe de discussion où les utilisateurs de Watts peuvent laisser un message, souvent dans l'attente d'un retour de notre équipe. Il s'agit s'agit de la Hotline Watts.  
+Ces retours peuvent être distingués en trois catégories : les vrais bugs, les faux bugs, et les demandes d'amélioration.
+
+Tout système logiciel comporte un défaut de fonctionnement n'ayant pas été prévu à l'origine. On ne peut pas l'éviter. Même les libraires écrites en langage bas niveau laissent apparaître quelques bugs, plus ou moins critiques. Notre Design System Watts ne fait donc pas exception. Mais pour cela, il faut être à l'écouter des personnes qui utilisent notre Design System, pour déceler au plus tôt le moindre bug. C'est la loi dite de Linus « _given enough eyeballs, all bugs are shallow_ ». Autrement dit, plus un logiciel est utilisé et relu par des yeux différents, plus on découvre rapidement les défauts, devenant ainsi faciles à corriger.  
+C'est pourquoi il est important de répondre activement aux messages laissés dans la Hotline, permettant de garder un contact constant avec nos _consumers_, et de relever le moindre bug provenant de notre librairie.
+
+Mais il arrive parfois de croiser dans la Hotline ce qu'on appelle de faux bugs, ou dit autrement, des faux-positifs. Ces bugs ne proviennent en réalité pas du code produit par Watts, mais d'une erreur d'implémentation. L'utilisateur implémentant le Design System n'a pas utilisé comme il aurait dû l'un de nos composants. Est-ce de sa faute pour autant ? C'est là le principe de remise en question qu'il faut avoir. Premièrement : est-ce que le bug ne viendrait pas de Watts ? Aussi, s'il y a effectivement eu erreur d'implémentation, avons-nous correctement documenté, expliqué, la manière dont il faut utiliser nos composants. Parfois, cette introspection pousse même à revoir la manière dont nous avons conçu les composants.  
+Si effectivement le problème vient bien de l'utilisateur, que notre remise en question ne permet pas de remettre en cause notre Design System, alors il nous faut accompagner le _consumer_ pour l'aider au mieux à intégrer nos composants.  
+Cette démarche peut paraître étrange : le Design System qui n'est pas censé s'adapter directement à la manière dont il est utilisé. Pourtant, Watts n'est pas dans un Design System publique, il évolue dans un environnement particulier. Watts est soumis aux enjeux de l'entreprise qu'est Sonepar. On ne peut donc pas se permettre de faire une totale abstraction de l'utilisateur : cela irait à l'encontre des logiques de délivrabilité, et par extension, de rentabilité de l'entreprise.
+
+Enfin, il y a les demandes d'amélioration. Là aussi, il faut faire preuve d'ouverture. Il faut concilier la philosophie et les principes fondateurs du Design System, tout en accueillant cette nouvelle demande. Est alors repris un concept d'expérience utilisateur : la demande exprimée par l'utilisateur répond-elle à son besoin ?  
+Une phrase que l'on attribue à Henri [Ford]{.smallcaps} est la suivante : «_If I had asked people what they wanted, they would have said faster horses._ ». Les utilisateurs expriment souvent leur besoin par des solutions, sans réellement comprendre le besoin intrinsèque. Ici, les utilisateurs n'avait pas besoin de chevaux plus rapides, mais d'une voiture. Le besoin n'était pas d'aller plus vite, le besoin était de se déplacer plus vite et plus efficacement.  
+Et bien c'est ce même exercice auquel notre équipe doit se livrer lors de la suggestion d'une amélioration. À date, notre Design System encourage même les développeurs à challenger les designers lorsqu'ils se retrouvent face à une difficulté technique. Était-ce réellement la bonne chose à utiliser ? Un exemple pourrait être un utilisateur qui demande une nouvelle fonctionnalité dans le composant `<Radio />` : pouvoir cocher plusieurs options en même temps. La solution n'est pas d'implémenter cette fonctionnalité, mais de challenger le besoin, pour finalement comprendre que l'utilisateur devait utiliser un composant `<Checkbox />` dont c'est le comportement par défaut.
 
 ## Créer des composants agnostiques
-→ création de web components
+
+Le Design System Watts est introverti et indépendant. Watts n'aime pas savoir comment il est utilisé, et ne veut pas s'adapter aux autres. Pour reformuler, une caractéristique majeure de notre Design System est de le rendre agnostique. La définition française du terme « agnostique » n'est pas fidèle à son faux-ami outre-atlantique. L'idée de web agnostique apparaît sous une certaine forme de neutralité et d'indépendance à l'extérieure.  
+Concrètement, il s'agit de ne pas être dépendant d'une quelconque technologie, pour pouvoir s'adapter à toutes. C'est un peu la même histoire avec l'USB-C : essayer de s'adapter à tous les périphériques, plutôt que de créer un connecteur pour chaque appareil.
+
+Au sein de Watts, l'un des premiers choix techniques fut de réaliser, coder nos composants avec React. React étant la solution la plus simple, la plus répandue, et la plus robuste. C'est un choix par défaut qui fait l'unanimité dans les entreprises.  
+Pourtant, ce choix a été remis en question il y près d'un an. En effet : en utilisant react dans notre Design System, on force nos utilisateurs à utiliser React. Et malgré le consensus établi autour de cette technologie, les voix montent pour contester l'hégémonie de librairie créée par Facebook. En ce sens : comment donner du poids à ces contestations, comment expérimenter, si nos choix techniques contraignent à l'utilisation d'une technologie donnée ?
+
+Ainsi, il été fait le choix de créer une seconde libraire de composants, mais avec des composants un peu particuliers : les web components.  
+Les web components sont relativement vieux à l'échelle d'internet. En 2011 déjà, Alex [Russell]{.smallcaps} présentait son idée de web components à la Fronteers Conference. De la simple idée est alors née un projet. Pourtant, ce projet a mis du temps pour se concrétiser. Les standards du web évoluent très lentement, et c'est d'ailleurs ce qui en fait l'une de leurs principales qualités, mais est aussi un frein à l'innovation. Aussi stables que les règles du W3C soient, elles sont égalements lentes pour évoluer. En plus de cela, le W3C n'est qu'une première étape, pour ensuite attendre une implémentation du côté des navigateurs. Il suffit de regarder depuis quand existent les spécification du sélecteur CSS `:has` (2013) et de la date de son implémentation officielle dans Firefox (2023).  
+Ce délai s'étire davantage pour les web components : les implémentation et les spécifications ne sont toujours pas stables. Même s'il existe un support officiel sur tous les principaux navigateurs depuis 2018, certaines fonctionnalités majeures ne sont pas encore disponibles. Cela n'a pas empêcher des équipes, comme celles de Carbon Design System (IBM), ou Fluent (Microsoft) à adopter les web components dans leurs libraires de composants. Et c'est dans cette lignée que s'inscrit la volonté de watts de créer des web components.
+
+Mais au fait, qu'est-ce que des web components ? Les web components sont natifs aux navigateurs : ils fonctionnent sans librairie externe, et permettent de créer des composants réactifs, réutilisables, et isolés du reste de la page.  
+On peut les comparer aux composants React, qui sont eux aussi encapsulés et réutilisables, mais nécessitent l’écosystème React pour fonctionner. Les web components, eux, peuvent s’insérer partout, permettant réactivité et encapsulation sans imposer un choix technique, faisant d'eux des candidats idéal pour un Design System agnostique. Pourtant, ils introduisent une philosophie quelque peu différente des composants react, notamment de leur principe d'isolation, qui sera un défi pour notre équipe.
+
+Et c'est ainsi que j'ai eu l'honneur de travailler à la création de web components pour Watts. L'idée était simple : nous avons un existant en React, et il faut le reproduire le plus fidèlement possible en web components.  
+Pour cela, l'équipe avait créé un planning détaillé de l'ordre dans lequel les composants devaient être créés. Grâce à l'expérience acquise avec les React, il était plus simple d'identifier les dépendances entre chaque composant. Par exemple, le composant `<watts-menu></watts-menu>` a lui-même besoin du composant `<watts-button></watts-button>`, intégrant à son tour le composant `<watts-icon></watts-icon>`. C'est enchevêtrement complexe de composants.
+
+Une fois une roadmap établie, il faut ensuite développer, coder les composants. Cette étape n'a pas été simple pour moi, et cela s'explique. Je suis arrivé aux quasi-prémices des Watts web components. Cela implique un faible nombre de composants existants, seulement trois quand j'étais arrivé. Ces trois composants ne peuvent pas refléter l'ensemble des logiques à intégrer dans chaque composant. Je devais donc constamment me renseigner, benchmarquer, pour essayer d'intégrer la solution la plus adéquate, et faisant consensus. Mais comme expliqué précédemment, l'écosystème des web components n'est pas encore tout à fait mature : les exemples manquent, et certaines fonctionnalités ne sont pas encore disponibles.
+
+Il faut alors faire preuve d'originalité et faire des compromis : créer des fonctions de toutes pièces, accepter une différence de fonctionnement avec les composants React.  
+L'illustration parfaite est avec le dernier web component sur lequel j'ai travaillé : le bouton radio. Du fait de l'imbrication des web components, et leur principe d'isolation, il était impossible de faire communiquer ces éléments. Là où un bouton radio ne permet de sélectionner qu'une seule option, mon web component permettait de toutes les sélectionner. Alors, nous avons dû faire le choix de créer un composant parent, le `<watts-radio-group></watts-radio-group>`. Ce composant n'a que pour seule fonction de regrouper les `<watts-radio></watts-radio>`, et d’imiter le comportement natif du navigateur avec les input radio : n'avoir qu'une seule option sélectionnée à la fois.
 
 ## La mère de toutes mes démos
-→ présentation démo
+
+Imaginez, un alternant à l'expérience professionnelle sans précédent, et à l'anglais balbutiant. Nous étions au tout début de mon alternance, ou presque. J'avais passé à peine plus de deux semaines avec mon équipe. Et voilà que Betty déclare devant l'équipe : « pourquoi Léo tu ne présenterais donc pas ton travail lors de la démo ? ». C'était la pire chose que l'on puisse me proposer.
+
+Les démos font partie des rituels SAFe. La démo est à réaliser une fois par sprint, à la fin de ce dernier. L'idée est très simple : mettre en avant le travail effectué pour montrer aux autres équipes notre travail. Cela permet de montrer une progression, de mettre à jour certaines synchronisations entre les équipes, de soulever les questions s'il y en a, et de comprendre ce que les autres font. C'est pour cela qu'une journée entière est réservée à ces démos.  
+Ainsi, le jour qui précède la fin du sprint est alloué aux démos. Celles-ci sont relativement courtes, elles durent 15 minutes, et ne sont que très peu mises en forme. Ce n'est pas une présentation officielle, c'est un rituel SAFe.
+
+Concrètement, ces _meetings_ se déroulent en anglais. Ils ont lieu l'après-midi, en France, pour que le plus grand nombre de nos collaborateurs puissent participer, qu'ils soient outre-atlantique, ou en asie du sud. Avant chaque démo, des membres de l'équipe sont désignés pour présenter leur travail. Ils doivent expliquer succinctement le travail qu'ils ont réalisé (correction de bug, création de feature, etc.), et présenter idéalement une demonstration de leur travail, à travers un partage d'écran.
+
+Quand Betty m'a proposé cet exercice pour la première fois, je ne voulais pas. C'est une d'anxiété qui dépassait mon entendement. Je suis timide, je ne suis pas à l'aise à l'oral sans longue préparation, et j'ai honte de mon anglais. Mais ma timidité était telle, que je n'ai pas pu refuser. Après tout, c'est mon travail, je dois assumer cette tâche. 
+
+Ce n’est pas sans une certaine réticence que je commençais donc à préparer ma présentation, la boule au ventre. Je m'aidais alors de ChatGPT avec des prompts comme « Aide-moi à traduire cette phrase dans un anglais courant, de l'oral, fluide et naturel ». J'imprimais même mon texte, pour être sûr de l'avoir devant les yeux tout en partageant mon écran.  
+D'ailleurs, pour éviter l'effet démo, à savoir une démonstration qui rencontre un bug technique, je réalisais alors une présentation sous forme de _slides_ pour montrer des captures d'écran où tout fonctionne. 
+
+Le moment tant redouté arrive. Mon cœur semble vouloir se détacher de ma poitrine, j'ai les mains qui tremble, un teint anormal. Carla, présentatrice de notre démo, m'introduit alors. Après un court temps d'hésitation, je commençais à m'exprimer. Le temps s'était allongé, étiré, chacun de mes mots semblait durer une éternité, en plus d'être écorchés par mon accent... relatif.  
+Pourtant, quelle ne fut pas ma surprise de voir tous ces sourires à la fin de ma présentation. Ce que j'oubliais, c'est que j'avais face à moi des être humains. Qu'ils viennent des États-Unis, ou bien d'inde, ils ont un cœur ! Et ils savaient que c'était ma toute première présentation.  
+Finalement, cette première présentation a été très bien accueillie, j'ai même été félicité. Si on fait preuve de lucidité, cette présentation était imparfaite, des mots me manquaient, d'autres étaient mal prononcés, mais le message était passé. En fait, il faut voir le verre à moitié plein : cette présentation à le potentiel d'être améliorée ! Et c'est même le propre pour le travail d'un alternant. Il jouit d'un statut particulier : l'alternant n'a que peu d'expérience. Il se forme au travers de ses cours et de ses premières expériences professionnelles : il apprend.  
+J'ai eu la chance d'avoir face à moi des personnes bienveillantes, qui m'ont encouragé, et qui ont été attentives et compréhensives lors de cette démo.
+
+Le temps a passé, et j'ai pu réaliser de nombreuses autres démos, essayant de me détacher de mes notes, d'être plus spontané, d'améliorer ma prononciation, et surtout, de me porter volontaire pour présenter mon travail. Je dois l'avouer, j'avais même plaisir à réaliser cet exercice lors des derniers mois.
+
+Finalement, pourquoi est-ce que je ne présenterai pas mon travail lors de la démo ? Cette invitation a permis de me lancer, d'oser, de me tromper et de m'améliorer. Briser mes habitudes, m'ouvrir aux autres, pratiquer mon anglais, et vaincre ma peur. C'était la meilleure chose que l'on m'ait proposé. 
 
 ## Vers l'évolution du Design System
-→ Innovation et initiative
-→ Volt
 
-# Quand j'ai perdu mes accès à Azure : l'équilibre de l'alternance
-→ un équilibre à trouver
-→ anecdote
-→ un équilibre qui s'est trouvé être relativement bon cours / entreprise
+En somme, j'ai pu réaliser de nombreuses missions au sein de mon équipe Watts, entre documentation et support technique, amélioration de composants existants, et création de nouveaux mécanismes. Pourtant il y une tâche que l'on peut difficilement mesurer, et qui a pourtant été la plus enrichissante pour moi : faire preuve d'initiative, et encourage l'innovation.
+
+En effet, il y a dans tout travail une ambivalence du métier. Se contenter de faire ce qui nous est demandé, mais il y aussi le fait d'aller au-delà. Et je me suis essayé à cela. Mais comment passer outre ? Et bien tout simplement en proposant des améliorations. Mais il y a une chose qu'il faut prendre en compte : avoir le bon état d'esprit.
+
+Quand je suis arrivé dans l'équipe, je dévaluais à bien des égards mon niveau. Peut-être même, avais-je là le syndrome de l'imposteur. Peut-importe le terme pour le définir, à ce moment précis, je considérais mes connaissances comme quasi-nulles, mettant sur un piédestal mes collègues. En effet, quand on se met à travailler avec des personnes qui ont acquis une certaine expérience professionnelle, à travers les entreprises et les années, on présent que notre maigre expérience aurait bien de la peine à s'imposer. De même, leur parcours universitaire démontre à nouveau une supériorité technique, laissant sans-voix la mienne.  
+Pourtant, il m'aura fallu du temps pour comprendre que ce n'est pas parce que mon expérience et mes connaissances sont moindres que je ne peux rien apporter. Et au contraire : le web est en constante mouvance. Il suffit de voir comme il a évolué à travers les années pour comprendre que ce qui était valable hier, ne l'est peut-être plus aujourd'hui. Et c'est cette mouvance qui permet aux développeur juniors d'avoir un regard neuf sur le web.  
+C'est en comprenant cela que j'ai réalisé que mes idées pouvaient faire sens et qu'elles pouvaient être légitimes.
+
+Je me souviens avoir suggéré à Mélanie une amélioration dans le Design System, et à la manière dont on gérait le fonctionnement du bouton dans le composant `<Menu />`. Sous couvert d'euphémismes, je présentais alors mon idée, pour aborder la problématique autrement. Je découvrais alors avec surprise la réaction de Mélanie, qui en plus de prendre avec sérieux ma suggestion, me complimentait pour avoir fait cette proposition.  
+Je réalisais alors que je pouvais moi aussi apporter à mon échelle, contribuer au Design System, en apportant un regard alternatif du fait de mon expérience. C'est un regard complémentaire à celui de la _seniorité_ de mes collègues.
 
 # Bilan après 172 commits
-→ Les livrables et réalisations effectuées à ce jour
+
+## `git log`
+
+C'est après quelques 172 commits, que je peux enfin dresser le portrait de mon alternance. Une alternance aux débuts singuliers. Grâce à la gentillesse et la bienveillance d'Alexis, me voilà catapulté dans un processus complexe de recrutement. Je découvre non pas une, mais trois entreprises différentes. Cela a créé en moi presque comme une crise identitaire : ai-je ma place ici ? C'est un monde que je connais pas, c'est un ordre de grandeur que je ne connais pas. Plus que des difficultés techniques, j'ai aussi dû affronter mes propres peurs. Aller de l'avant, m'ouvrir aux autres, communiquer. C'est en fait une aventure humaine que j'ai vécu.
+
+Après avoir documenté, débuggué, amélioré, des composants React, j'ai dû créer de toute pièce des web components. J'ai intégré tous les principes SAFe, participant notamment aux nombreux rituels, slalomant entre _dailies_, _PI Plannings_ et démos. J'ai appris ce qu'était réellement la gestion de projet. Plus que cela, en pratiquant l'anglais, et en combattant ma timidité, j'ai développé mes compétences de communiquant : un comble pour un Publicis.
+
 → difficultés
 → déménagement
 
+## `git log | grep alternance`
+
+172 commits, plus tard, on se rend également compte d'une chose : la découverte d'un équilibre efficace de l'entreprise à l'école. Le rythme adopté par le BUT MMI de Champs-sur-Marne trouve un bon compromis permettant d'apprendre à l'école, sans décrocher à l'entreprise, et inversement.
+
+À raison d'un jour par semaine, avec également une semaine complète par mois, je pouvais pleinement me concentrer sur le projet universitaire Tous inclus, tout en apprenant en entreprise.  
+C'est peut-être même grâce à ce rythme que j'ai pu puiser pleins de bonnes pratiques de mon entreprise, pour les incorporer au projet universitaire. Par exemple, la gestion de projet, les sprints de deux semaines, les technologies utilisées en front-end, la conception orientée Design System, le linting des fichiers de code : tous ont été inspirés de mon alternance à Publicis Sapient.
+
+La semaine entière de cours ne m'a porté préjudice qu'une seule fois. Cette anecdote nous replonge à l'époque où le Design System stockait son _repository_ git sur Azure (service cloud de Microsoft). Je travaillais alors normalement, récupérant le code, et créant de temps à autres des branches distantes pour ajouter des fonctionnalités. Le temps de l'école étant venu, je m'absentais alors une semaine entière.  
+Dès mon retour, je vais sur la plateforme pour consulter les évolutions du code en mon absence. Telle ne fut pas ma surprise que de découvrir qu'on m'avait supprimé les droits d'accès au _repository_. J'exprimais alors mon inquiétude auprès de Julien.  
+Alors, j'ai vite compris ce qu'il s'était passé. En réalité, en une semaine, le projet complet avait migré sur GitHub, il n'existait donc plus sur Azure, le mystère était donc résolu.
+Ce préjudice est à relativiser, tant il ne m'a finalement pas porté… préjudice. En revanche il montre qu'il peut se passer énormément de choses en une semaine. C'est là que l'on comprend qu'une alternance où l'on passe plus d'une semaine peut s'avérer compliqué pour ne pas manquer de choses en entreprise. 
+
+En somme, j'ai l'impression d'avoir gagné en maturité, en maturité profesionnelle notamment. Je me suis formé aux pratiques professionnelles, j'ai gagné en technique, et j'ai développé mon sens de la communication (avec une nette affirmation de moi-même en anglais !). Mais je pense que ma plus grande leçon aura été ce que j'ai appris sur moi, ce travail introspectif mené tout au long de l'année.
+
 # Le développeur n'est plus un col blanc
 
-Le développeur dans une Digital Factory ne correspond plus exactement à l’image traditionnelle du col blanc. L’arrivée de l’intelligence artificielle a automatisé certaines tâches créatives ou techniques, réduisant la part de réflexion pure et accélérant le rythme de production. Les pratiques de suivi minutieux de la productivité, où chaque commit ou pull request est chronométré et analysé, introduisent une discipline qui rappelle les logiques tayloriennes. L’offshoring renforce cette standardisation, imposant des process stricts pour coordonner des équipes réparties sur plusieurs fuseaux horaires. La répétition des rituels, des sprints et des cérémonies SAFe accentue ce sentiment de cadence imposée, laissant peu de place à l’expérimentation individuelle. Le turnover élevé oblige enfin chaque nouveau collaborateur à intégrer rapidement des pratiques déjà établies, contribuant à la sensation d’un rythme subi plus que choisi.
+La développeur est-il un col blanc ? Au sens sociologique et historique, oui. Il appartient à cette catégorie des cadres et professions intellectuelles supérieures. La définition de l'INSEE est claire, le développeur appartient à ces « professions qui nécessitent des connaissances approfondies et qui, souvent, doivent satisfaire à une exigence de diplômes ou de concours » @Pcs20203CadresProfessionsIntellectuelles [].  
+Dans l’imaginaire commun, le col blanc est un salarié qui effectue un travail intellectuel. On le perçoit comme maîtrisant son temps et ses tâches. On lui donne une grande autonomie pour remplir ses responsabilités. Son travail est réflexion et créativité. Il possède un cadre de travail stable, un emploi sécurisé.
+
+Pourtant, il semble que le développeur de la _Digital Factory_ s'éloigne peu à peu de l’image traditionnelle des cols blancs.  
+Tout d'abord, plus que jamais, sa productivité est mesurée. L'outil informatique, a permis la créations de pleins de métiers, ainsi que la transformation de nombreux autres. Mais il est également devenue une porte dérobée de notre intimité. Il est un outil de mesure, et est devenu la badgeuse. On ne pointe plus sa carte au début et à la fin de la journée, on se connecte sur Teams, et on garde le voyant vert jusqu'à la fin de la journée.  
+Pire encore, l'informatique génère des données, que l'on peu ensuite analyser. Les mathématiques peuvent donc aider à mesurer la productivité, qui au sens de l'entreprise, s'appelle la rentabilité. Les exemples sont nombreux, et pour le développeur, on pourrait citer la mesure de fréquence des _commits_ et _pull requests_. La rapidité d'exécution pour un ticket donné dans Jira. Ce modèle donne des allures de taylorisme : le moindre geste est chronométré et analysé. Cela n'est pas sans rappeler les usines, où est justement né le travail à la chaîne.
+
+De plus, il semblerait que Publicis Sapient pratique de _l'offshoring_, en déléguant notamment certaines missions dans des pays où le coup de la main d'œuvre est moins cher, avec par exemple une présence de Publicis Sapient. Les équipes qui travaillent à distance sont mises à disposition sur des projets client, tel que le projet Sonepar.  
+Pourtant, il faut être critique : la présence de Publicis Sapient en Inde peut s'expliquer par la présence de Sonepar également en Inde. On y trouverait donc une logique à ce que le consultant soit installé au plus près de son client. Toutefois, on notera que la main d'œuvre pour des ingénieurs logiciel en Inde reste moins chère. Indéniablement, Publicis profite ainsi d'une expertise à moindre coup. Il existe probablement une forme _d'offshoring_.  
+Là aussi, on retrouve le propre des usines de production. Prenons l'exemple de Renault, constructeur automobile français historique, produisant ses véhicules dans les usines d'Île-de-France, ou en Normandie. Pourtant, Renault, au début des années 2000, a commencé à délocaliser sa production vers des pays où la production de voitures est moins chère, tel qu'au Maroc. La réduction des coûts s’explique en grande partie par des salaires moins élevés pour les ouvriers.
+
+Le développeur semble aussi avoir des contraintes grandissantes, notamment du fait de l'application du framework SAFe. Le framework impose une cadence de production, cadence comparable à celle des tapis-roulants du travail à la chaîne. Chaque tâche est planifiée à l'avance et chronométrée. Elle s'inscrit dans flux où le rythme global prime sur les initiatives individuelles.
+
+J'ai également pu observer lors de mon alternance des départs de la _Digital Factory_. Des développeurs ont quitté Publicis Sapient : serait-ce là un marqueur d'un turnover élevé ? Marqueur emprunt d'une industrialisation où l'individu est remplaçable. Dans le code, on parle même de _Bus factor. On élimine les rôles clefs, pour que le processus ne s'arrête jamais. On rend un poste remplaçable, si jamais « quelqu'un devait se faire percuter par un bus ».  
+Mais cette logique permet aussi _d'onboarder_ facilement de nouvelles personnes, et cela ouvre les portes à un mécanisme de turnover volontaire. On ne cherche plus à garder les développeurs, trop coûteux au fur-et-à-mesure de leur ancienneté, en les remplaçant par de nouveaux développeurs. 
+
+Enfin, comment ne pas parler de l'intelligence artificielle ? Celle-ci est devenu omniprésente, et omnipotente dans le travail du développeur. Sonepar et Publicis Sapient ont trouvé un accord pour intégrer l'IA au coeur du développement. Publicis Sapient travaille même à la réalisation de son propre outil de développement accéléré par l'IA : _Sapient Slingshot_.  
+On peut se demander si cette IA n'est pas radicalement en train de changer la manière pour le développeur de créer du code. On peut se demander si la tâche intellectuelle n'est pas reléguée à l'IA, pour n'avoir plus qu'un « actionneur de l'IA » derrière. Le métier de développeur serait finalement très comparable à celui de l'ouvrier.  
+Avec des horaires fixes, le développeur se rend à la _Digital Factory_. Il se met en poste, derrière son écran, et guide la machine dans des tâches presque manuelles, avec des clics réguliers, et répétitives.
+
+Finalement, pourrions-nous voir une transformation du métier de développeur ? Le col blanc au sens sociologique ne trouve plus de matérialité dans ce secteur. Les développeurs ne sont manifestement pas des ouvriers. Ils ne travaillent pas à l'usine. Pourtant, il semble que de nouvelles usines aient émergé, sans qu'on les appelle pour autant des usines. Celles-ci créent de la confusion, une ambivalence dans les responsabilités du développeur. Le développeur n'est pas un ouvrier, mais il en porte ses habits.
 
 # La _Digital Factory_ en bleu de travail ?
 
-Pour autant, la Digital Factory n’est pas un atelier industriel au sens classique du terme. Des initiatives comme le Knowledge Exchange Day offrent des espaces où les développeurs peuvent partager des expériences, co-créer des solutions et échanger sur les pratiques. Ces moments introduisent de la flexibilité et de la créativité, rappelant que malgré le rythme soutenu et les rituels codifiés, le travail conserve une dimension intellectuelle et collaborative. La structure de la Digital Factory ne se réduit donc pas à une logique de répétition mécanique ; elle intègre aussi des pratiques qui favorisent l’apprentissage et l’innovation.
+Les développeurs ne sont manifestement pas des ouvriers au sens strict : ils ne fabriquent pas de pièces à la chaîne et ne manipulent pas de machines physiques. Pourtant, en observant leur manière de travailler, on distingue alors un certain rythme, des processus, et des contraintes imposées. C'est l'apparition des usines 2.0.
+
+Le développeur ne peut pas être un ouvrier : il doit toujours partager, collaborer avec ses collègues, et conserve une dimension intellectuelle dans son métier. La valeur ajoutée d'un développeur se trouve être aujourd'hui l'architecture plus que le code en lui-même. Le développeur conçoit en pensant à l'avenir : il intellectualise le code. Il débat, réfléchit, et essaye avec ses pairs de trouver une solution qui ne soit pas la performante, mais celle qui fera le meilleur compromis. Ces interactions avec ses collègues pour toujours plus challenger le code se trouve avoir encore une forte caractéristique des professions intellectuelles.
+
+De même, le développeur est poussé à se former. Là encore, la définition sociologique épouse parfaitement cette initiative. On souhaite que le développeur acquière davantage de connaissances, qu’il développe ses compétences et partage son expérience. Des moments comme le _Knowledge Exchange Day_ (KED) illustrent parfaitement cette dynamique : ils offrent un espace où chacun peut échanger sur ses pratiques, co-créer, et confronter ses idées. Publicis Sapient organisait ces journées, en encourageant des _speakers_ à présenter certains aspects de leur mission, de rentrer dans la technique, et de partager aux autres leurs savoirs. Typiquement col blanc non ?  
+Cependant, Publicis Sapient France tend vers un autre horizon. Depuis le début de 2025, leur fréquence va diminuer, ainsi que leur format : moins d'une fois par mois, et seulement sur une demi-journée.
+
+S'il y a une chose marquante avec la _Digital Factory_, c'est qu'elle engendre des métiers dons la catégorisation est difficile. Les frontières sont bien moins marquées que celles des définitions sociologiques, calquées sur la période de l'industrialisation. Le développeur ressemble en tous points à un ouvrier, pourtant il conserve des marqueurs significatifs des cols blancs. Le développeur n'est donc pas un ouvrier, mais pas un col blanc non plus ?
 
 # La _Digital Factory_ n'est pas une question de col, mais de sweat à capuche
 
-Au final, la distinction traditionnelle entre col blanc et col bleu perd beaucoup de son sens dans ce contexte. Ce qui définit le développeur dans une Digital Factory n’est pas tant la nature de ses tâches que son positionnement dans l’organisation, sa manière de collaborer et son intégration à la culture de l’équipe. L’identité professionnelle se construit à travers le rythme des projets, les interactions et les rituels partagés. Le symbole du sweat à capuche illustre parfaitement cette hybridation : un équilibre entre autonomie intellectuelle et structuration méthodique, entre réflexion et cadence imposée. La Digital Factory devient alors un espace où l’identité se joue moins sur le type de travail que sur la manière de l’habiter au quotidien.
+Au final, la distinction traditionnelle qui oppose col blanc et col bleu, perd drastiquement de son sens, surtout dans ce contexte numérique fort. Cette période post-bulle informatique rebat les cartes sur toutes les dimensions, dont la dimension sociologique. Il devient donc impropre de parler de col blanc et de col bleu. Ces termes n'arrivent plus à caractériser, catégoriser fidèlement les différentes professions.  
+Là où le col confond nature des tâches et organisation du travail, la capuche, elle, les rassemble. C'est une image bien connue qu'on a des développeurs, vêtus d'un sweat à capuche. C'est d'ailleurs de cette image que l'expression _white_ et _black hat_ s'est transformée en _black & white hood_.  
+Peut-être en effet que la profession de développeur est groupe à part entière, à considérer différemment, dans un contexte de mondialisation et d'ère Internet.
+
+Le sweat à capuche est une sorte d'hybridation. Son identité professionnelle se construit au travers du rythme des projets, des interactions avec les pairs, et des rituels partagés. C'est un équilibre entre une certaine autonomie intellectuelle et de la structuration, entre réflexion et cadence imposée.
+
+Les IA sont en train de résoudre des problèmes jusqu'alors insolvables. Les IA seront capables de remplacer des métiers intellectuels, auxquels on prêtait une immunité technologique. Aujourd'hui, ces métiers sont en phase d'être radicalement transformés. Le personnel de ménage n'a pas perdu son métier, seulement le balai. Les développeurs, eux, risquent de voir une partie de leur autonomie intellectuelle absorbée par ce nouvel « aspirateur de données » qu’est l’IA.
 
 # Doit-on fermer les yeux sur l'éthique pour apprendre ?
 
-L’expérience dans la Digital Factory m’a confronté à des dilemmes que je n’avais jamais vraiment envisagés. Il serait trop simpliste de réduire la situation à un choix entre bien et mal. Sur le plan professionnel, cette immersion m’a permis d’apprendre énormément, tant sur le front-end que sur la gestion de projet numérique. J’ai découvert une passion sincère pour le développement front et pour les pratiques de la Digital Factory, et je n’aurais probablement jamais progressé aussi vite ailleurs. Les compétences acquises, les méthodologies assimilées et la pratique réelle sur des projets complexes constituent un apprentissage exceptionnel.
+Mon expérience au sein de la _Digital Factory_ m'a confronté à des dilemmes que je n'avais envisagé. J'ai notamment remis en questions mes valeurs morales, éthiques. Il en ressort une vision moins manichéenne des choses. Ma réponse n'est plus binaire : travailler ou ne pas travailler dans une entreprise avec lesquelles je ne partage pas mes valeurs. 
 
-Pour autant, cette expérience m’a également révélé les limites de ce modèle. L’ouverture à l’open source, à l’échange en dehors des murs de l’entreprise, est restée restreinte. L’univers de Publicis, avec sa structure hiérarchique et ses enjeux commerciaux puissants, montre à quel point l’apprentissage peut parfois se faire au prix d’une exposition à des logiques de marché et de standardisation. J’ai fait de belles rencontres, et j’ai compris l’importance de travailler avec des équipes talentueuses, mais j’ai aussi pris conscience que je ne souhaite pas faire ce type de carrière toute ma vie.
+Cette réponse n'est pas binaire, parce qu'une entreprise ne peut pas partager en intégralité ses valeurs avec moi, et ne peux donc pas non plus être en totale opposition. Il y a donc un certain détachement à adopter, pour ré-envisager cette considération de l'éthique. Publicis Sapient, et Publicis Groupe sont loin, très loins d'être complètement teintées de noir. Bien au contraire, ces entités partagent des objectifs en matière d'inclusion, d'environnement et de santé.  
+Pour ne parler que du domaine de la publicité, Marcel [Bleustein-Blanchet]{.smallcaps} disait poétiquement :
 
-Au-delà des compétences techniques et professionnelles, cette expérience m’a rappelé le besoin d’une dimension plus humaine dans mon travail. L’éthique, la proximité, le sens de la contribution et la liberté d’initiative sont des critères auxquels je ne peux pas renoncer. Apprendre intensivement dans un cadre aussi structuré est enrichissant, mais la réalisation personnelle et l’épanouissement passent par un équilibre qui dépasse la seule acquisition de savoir-faire. Fermer les yeux sur l’éthique pourrait ouvrir des opportunités d’apprentissage, mais à quel prix sur le plan humain et personnel ?
+> « La publicité c’est comme faire une demande en mariage, et pour réussir en amour il faut y croire. »
 
-# Annexes
+L'entreprise croit d'abord dans les produits qu'elle met en avant. En fait, loin de la polarisation à laquelle j'ai été sensible sur le net, la publicité ce n'est pas le bien, ni le mal. La publicité est parfois nécessaire pour se faire connaître, faire connaître un produit. Ce n'est pas cette découverte qui me fera désinstaller _uBlock Origin_, mais elle me fera comprendre que la question est complexe.
+
+Aussi, je commence à reconsidérer mes barrières éthiques, pour prendre en considération un autre facteur : ce que j'apprends. Je pense qu'il aurait été difficile pour moi d'autant apprendre que dans cette entreprise, ce type d'entreprise. Le dilemme change, et met en parallèle considérations éthiques, et transmission de savoirs.  
+Je ne saurais dire si cette réflexion n'est que pour rassurer de l'alternance que j'ai réalisé, peut-être est-ce là un biais. Je pense sincèrement en tout cas avoir acquis un regard neuf sur cette question éthique. Publicis Sapient m'a beaucoup apporté.
+
+J'ai appris le front-end. J'ai appris la gestion de projet rapportée au numérique. J’ai découvert une passion sincère pour le développement front. J'ai découvert un nouvel aspect de l'accessibilité numérique. Sur le plan professionnel, Publicis Sapient m'a beaucoup donné. C'est cette rémunération implicite dont je parlais au début de cet écrit. Et cette rémunération dépasse toutes mes attentes. J'ai l'impression d'avoir progressé techniquement, j'ai acquis des compétences et assimilé des méthodologies. J'ai pratiqué sur un projet concret. Cette alternance représente un apprentissage exceptionnel.  
+J'aime raconter cet équilibre entre la théorie des cours, et la réalité du terrain en entreprise.
+
+Pour autant, je ne dresse pas un tableau complètement positif de Publicis Sapient. Dépeint de ce constat une absence d'ouverture au monde de l'open source, qu'il s'agisse d'une contribution par le code, ou financière. Mais encore une fois, je peux le comprendre : l’univers Publicis, avec sa structure hiérarchique, et ses enjeux commerciaux, répond à une logique commerciale, une logique de marché. C'est encore une fois le paradoxe de Google : autant que j'aime me séparer des produits de Google, je ne peux nier sa contribution majeure au monde de l'open source, permettant de faire vivre des projets, et même d'initier des projets open source.
+J’ai fait de belles rencontres à Publicis Sapient, et j’ai compris l’importance de travailler avec une équipe qui peut prendre le temps de m'expliquer. Je remercie à nouveaux chaleureusement ces personnes, qui ont toutes, sans exception, montré leur bienveillance à mon égard, et qui m'ont poussé à me dépasser.
+
+Et justement, cette expérience humaine m'a fait également reconsidérer mon rapport à l'autre. J'ai appris de moi-même. Et je constate que le code isole. Le télétravail isole. Au-delà des compétences techniques et professionnelles, cette expérience m’a rappelé le besoin d’une dimension plus humaine dans mon travail. L’éthique, la proximité, le sens de la contribution et la liberté d’initiatives sont devenus des moteurs pour moi. 
+
+J'ai découvert en MMI une sympathie pour l'expérience utilisateur (UX). Ce n'est pas un domaine que je connaissais avant d'entrer dans la formation. Pourtant, je crois avoir découvert une nouvelle passion, qui peut-être m'aidera à éclairer mes futures aspirations professionnelles.  
+Il y a une caractéristique forte dans l'UX, presque un principe fondateur : l'empathie. Et il y a bien une chose que je dois dire, j'aime cette vision recentrée sur l'autre. Où la technique s'efface pour laisser apparaître des humains. Peut-être est-ce là l'écho de ma peur d'un web qui se robotise, avec tous ces sites web générés par IA. Tous ces posts, toutes ces images, toutes ces vidéos, tous ces sons, tous, générés par IA.
+
+# Annexes {-}
 
 ## A. Cahier des charges
 ## B. Documents techniques
@@ -478,9 +611,10 @@ Au-delà des compétences techniques et professionnelles, cette expérience m’
 - **BUT** Bachelor Universitaire de Technologie. Diplôme de l’enseignement supérieur, obtenu après trois années d’études post-bac dans un IUT.
 - **IUT** Institut Universitaire de Technologie. Composante d’une université délivrant le BUT.
 - **navigateur**
+- **consumer** terme utilisé pour désigner un utilisateur, qui va consommer, au sens fig., du code.
 
 ## D. Quelques GIFs utilisés
 
-# Bibliographie
+# Bibliographie {-}
 ::: {#refs}
 :::
