@@ -28,9 +28,10 @@ Ce mémoire retrace l’expérience d’un étudiant en alternance chez Publicis
 
 This dissertation recounts the experience of a work-study student at Publicis Sapient between 2024 and 2025. It examines the transformation of the web developer profession through an introspective lens. The discussion draws on the metaphor of blue-collar and white-collar workers and questions the influence of _Digital Factories_. Based on interviews, observations, and literature, it sheds light on ethical, organizational, and identity-related challenges.
 
-# Table des matières {-}
-::: {#toc}
-:::
+\newpage
+\renewcommand{\contentsname}{Table des matières}
+\tableofcontents
+\newpage
 
 # Cadre du mémoire {-}
 
@@ -296,9 +297,9 @@ Ce détail qui n'en est finalement pas un m'a marqué. À Publicis Sapient, on e
 
 ## Intégration dans l'équipe Watts
 
-Arriver dans l’équipe Watts, c’était franchir une nouvelle étape, et pas seulement sur le plan technique. À l’époque, l’équipe se composait de Julien, lead développeur front-end, Mélanie, développeuse front-end, Holger, architecte front-end venu d’Allemagne, Carla, Product Owner et Project Manager, et Betty, en charge du design de marque et d’interface. Chacun portait une expertise, une personnalité, et une histoire différente.
+Arriver dans l’équipe Watts, c’était franchir une nouvelle étape, et pas seulement sur le plan technique. À l’époque, l’équipe se composait de Julien [Khenkitisak]{.smallcaps}, lead développeur front-end, Mélanie [Paque]{.smallcaps}, développeuse front-end, Holger [Hellinger]{.smallcaps}, architecte front-end venu d’Allemagne, Carla [Beye]{.smallcaps}, Product Owner et Project Manager, et Betty [Letourneur]{.smallcaps}, en charge du design de marque et d’interface. Chacun portait une expertise, une personnalité, et une histoire différente.
 
-Pour moi, l’enjeu n’était pas seulement d’apprendre un nouveau stack ou de comprendre les rouages d’un projet complexe : il s’agissait avant tout de m’intégrer dans une équipe déjà soudée, de trouver ma place parmi des profils expérimentés. Ce défi était d’autant plus grand que je suis naturellement timide, et que la prise de parole, l’initiative ou même le simple fait de demander de l’aide me demandaient un effort considérable. Pourtant, l’entreprise, c’est avant tout une expérience humaine : on ne travaille pas seul, on avance ensemble, on partage les réussites comme les difficultés.
+Pour moi, l’enjeu n’était pas seulement d’apprendre une nouvelle stack ou de comprendre les rouages d’un projet complexe : il s’agissait avant tout de m’intégrer dans une équipe déjà soudée, de trouver ma place parmi des profils expérimentés. Ce défi était d’autant plus grand que je suis naturellement timide, et que la prise de parole, l’initiative ou même le simple fait de demander de l’aide me demandaient un effort considérable. Pourtant, l’entreprise, c’est avant tout une expérience humaine : on ne travaille pas seul, on avance ensemble, on partage les réussites comme les difficultés.
 
 Dès les premiers jours, Carla a joué un rôle déterminant dans mon intégration. Son accueil chaleureux, sa disponibilité et sa capacité à mettre à l’aise ont été essentiels pour moi. Elle m’a guidé dans la découverte des rituels de l’équipe : les dailies, les refinements, les plannings, autant de moments où il fallait oser prendre la parole, exposer ses avancées ou ses blocages. Grâce à elle, j’ai pu progressivement dépasser ma timidité, comprendre le fonctionnement collectif et m’ouvrir aux autres. L’équipe Watts, par son écoute et sa bienveillance, m’a permis de transformer ce qui était un défi personnel en une véritable opportunité de croissance, humaine autant que professionnelle.
 
