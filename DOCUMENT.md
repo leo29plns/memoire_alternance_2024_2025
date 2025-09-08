@@ -625,8 +625,6 @@ Il y a une caractéristique forte dans l'UX, presque un principe fondateur : l'e
 - **navigateur**
 - **consumer** terme utilisé pour désigner un utilisateur, qui va consommer, au sens fig., du code.
 
-## Quelques GIFs utilisés {-}
-
 \newpage
 
 # Bibliographie {-}

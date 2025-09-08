@@ -75,6 +75,17 @@ $endfor$
 % Ensure indentation even after headings
 \usepackage{indentfirst}
 
+% Package for customizing section titles
+\usepackage{titlesec}
+
+% Configure indentation for all title levels (only indentation, keep default formatting)
+\titlespacing*{\chapter}{1.5em}{*4}{*2.3}
+\titlespacing*{\section}{1.5em}{*3.25}{*1.5}
+\titlespacing*{\subsection}{1.5em}{*3.25}{*1.5}
+\titlespacing*{\subsubsection}{1.5em}{*3.25}{*1.5}
+\titlespacing*{\paragraph}{1.5em}{*3.25}{*1.5}
+\titlespacing*{\subparagraph}{1.5em}{*3.25}{*1.5}
+
 % Simple line break without paragraph break or indentation
 \makeatletter
 \renewcommand{\\}{\hfill\break}
