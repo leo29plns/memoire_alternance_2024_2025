@@ -579,6 +579,12 @@ Le développeur ne peut pas être un ouvrier : il doit toujours partager, collab
 De même, le développeur est poussé à se former. Là encore, la définition sociologique épouse parfaitement cette initiative. On souhaite que le développeur acquière davantage de connaissances, qu’il développe ses compétences et partage son expérience. Des moments comme le _Knowledge Exchange Day_ (KED) illustrent parfaitement cette dynamique : ils offrent un espace où chacun peut échanger sur ses pratiques, co-créer, et confronter ses idées. Publicis Sapient organisait ces journées, en encourageant des _speakers_ à présenter certains aspects de leur mission, de rentrer dans la technique, et de partager aux autres leurs savoirs. Typiquement col blanc non ?  
 Cependant, Publicis Sapient France tend vers un autre horizon. Depuis le début de 2025, leur fréquence va diminuer, ainsi que leur format : moins d'une fois par mois, et seulement sur une demi-journée.
 
+S'il y a une chose marquante avec la _Digital Factory_, c'est qu'elle engendre des métiers dons la catégorisation est difficile. Les frontières sont bien moins marquées que celles des définitions sociologiques, calquées sur la période de l'industrialisation. Le développeur ressemble en tous points à un ouvrier, pourtant il conserve des marqueurs significatifs des cols blancs. Le développeur n'est donc pas un ouvrier, mais pas un col blanc non plus ?
+
+# La _Digital Factory_ n'est pas une question de col, mais de sweat à capuche
+
+Au final, la distinction traditionnelle qui oppose col blanc et col bleu, perd drastiquement de son sens, surtout dans ce contexte numérique fort. Cette période post-bulle informatique rebat les cartes sur toutes les dimensions, dont la dimension sociologique. Il devient donc impropre de parler de col blanc et de col bleu. Ces termes n'arrivent plus à caractériser, catégoriser fidèlement les différentes professions.
+
 S'il y a une chose marquante avec la _Digital Factory_, c'est qu'elle engendre des métiers dons la catégorisation est difficile. Les frontières sont bien moins marquées que celles des définitions sociologiques, calquées sur la période de l'industrialisation. Il devient donc impropre de parler de col blanc et de col bleu. Ces termes n'arrivent plus à caractériser, catégoriser fidèlement les différentes professions.  
 Là où le col confond nature des tâches et organisation du travail, la capuche, elle, les rassemble. C'est une image bien connue qu'on a des développeurs, vêtus d'un sweat à capuche. C'est d'ailleurs de cette image que l'expression _white_ et _black hat_ s'est transformée en _black & white hood_.  
 Peut-être en effet que la profession de développeur est groupe à part entière, à considérer différemment, dans un contexte de mondialisation et d'ère Internet.
@@ -620,21 +626,21 @@ Il y a une caractéristique forte dans l'UX, presque un principe fondateur : l'e
 
 # Glossaire {-}
 
-**Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.  
-**API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.  
-**Consulting** Activité de conseil aux entreprises, incluant souvent la mise en œuvre des recommandations.  
-**Design System** Ensemble cohérent de composants, règles et outils permettant de créer des interfaces utilisateur harmonisées.  
-**Framework** Cadre de travail structuré fournissant des outils et des conventions pour le développement logiciel.  
-**Open Source** Modèle de développement logiciel où le code source est librement accessible et modifiable.  
-**React** Bibliothèque JavaScript pour créer des interfaces utilisateur avec des composants réutilisables.  
-**Repository** Espace de stockage pour un projet de développement, incluant le code source et son historique.  
-**Sprint** Période de travail de durée fixe (généralement 2 semaines) dans les méthodes agiles.  
-**Stack** Ensemble de technologies utilisées pour développer une application.  
-**Tokens** Valeurs standardisées (couleurs, espacements, tailles) utilisées dans un design system.  
-**User stories** Descriptions courtes des fonctionnalités du point de vue de l'utilisateur final.  
-**Backlog** Liste priorisée des fonctionnalités et tâches à réaliser.  
-**Web components** Standard du web permettant de créer des composants réutilisables nativement dans les navigateurs.  
-**DOM virtuel** Représentation en mémoire de l'interface utilisateur permettant des mises à jour optimisées.  
+ * **Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.  
+ * **API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.  
+ * **Consulting** Activité de conseil aux entreprises, incluant souvent la mise en œuvre des recommandations.  
+ * **Design System** Ensemble cohérent de composants, règles et outils permettant de créer des interfaces utilisateur harmonisées.  
+ * **Framework** Cadre de travail structuré fournissant des outils et des conventions pour le développement logiciel.  
+ * **Open Source** Modèle de développement logiciel où le code source est librement accessible et modifiable.  
+ * **React** Bibliothèque JavaScript pour créer des interfaces utilisateur avec des composants réutilisables.  
+ * **Repository** Espace de stockage pour un projet de développement, incluant le code source et son historique.  
+ * **Sprint** Période de travail de durée fixe (généralement 2 semaines) dans les méthodes agiles.  
+ * **Stack** Ensemble de technologies utilisées pour développer une application.  
+ * **Tokens** Valeurs standardisées (couleurs, espacements, tailles) utilisées dans un design system.  
+ * **User stories** Descriptions courtes des fonctionnalités du point de vue de l'utilisateur final.  
+ * **Backlog** Liste priorisée des fonctionnalités et tâches à réaliser.  
+ * **Web components** Standard du web permettant de créer des composants réutilisables nativement dans les navigateurs.  
+ * **DOM virtuel** Représentation en mémoire de l'interface utilisateur permettant des mises à jour optimisées.  
 
 \newpage
 
