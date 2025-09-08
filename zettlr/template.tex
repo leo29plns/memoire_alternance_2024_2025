@@ -1,4 +1,4 @@
-// From https://raw.githubusercontent.com/jgm/pandoc/refs/heads/main/data/templates/default.latex
+% From https://raw.githubusercontent.com/jgm/pandoc/refs/heads/main/data/templates/default.latex
 
 $passoptions.latex()$
 \documentclass[
@@ -17,13 +17,16 @@ $endif$
 $for(classoption)$
   $classoption$$sep$,
 $endfor$
-]{$documentclass$}
+]{report}
 $if(beamerarticle)$
 \usepackage{beamerarticle} % needs to be loaded first
 $endif$
 \usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{eso-pic}
 $if(geometry)$
-\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+\geometry{$for(geometry)$$geometry$$sep$,$endfor$}
 $endif$
 \usepackage{amsmath,amssymb}
 $if(cancel)$
@@ -34,6 +37,18 @@ $-- section numbering
 $--
 $if(numbersections)$
 \setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
+
+% Custom numbering scheme
+$if(has-chapters)$
+\renewcommand{\thechapter}{\Roman{chapter}.}
+\renewcommand{\thesection}{\thechapter\arabic{section}.}
+\renewcommand{\thesubsection}{\thesection\alph{subsection}}
+$else$
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\alph{subsubsection}}
+$endif$
+
 $else$
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 $endif$
@@ -43,6 +58,25 @@ $common.latex()$
 $for(header-includes)$
 $header-includes$
 $endfor$
+
+% Disable hyphenation
+\usepackage[none]{hyphenat}
+\sloppy
+
+% Align text to the left (no justification)
+\raggedright
+
+% Set paragraph indentation for all paragraphs
+\setlength{\parindent}{1.5em}
+
+% Ensure indentation even after headings
+\usepackage{indentfirst}
+
+% Simple line break without paragraph break or indentation
+\makeatletter
+\renewcommand{\\}{\hfill\break}
+\makeatother
+
 $after-header-includes.latex()$
 $hypersetup.latex()$
 $if(pdf-trailer-id)$
@@ -78,13 +112,13 @@ $endif$
 $if(has-frontmatter)$
 \frontmatter
 $endif$
-$if(title)$
-\maketitle
+% Custom cover page
+\input{assets/cover.tex}
+
 $if(abstract)$
 \begin{abstract}
 $abstract$
 \end{abstract}
-$endif$
 $endif$
 
 $for(include-before)$
