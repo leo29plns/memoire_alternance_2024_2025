@@ -69,6 +69,9 @@ $endfor$
 % Set paragraph indentation for all paragraphs
 \setlength{\parindent}{1.5em}
 
+% Increase space between paragraphs
+\setlength{\parskip}{1em}
+
 % Ensure indentation even after headings
 \usepackage{indentfirst}
 
@@ -112,8 +115,6 @@ $endif$
 $if(has-frontmatter)$
 \frontmatter
 $endif$
-% Custom cover page
-\input{assets/cover.tex}
 
 $if(abstract)$
 \begin{abstract}
