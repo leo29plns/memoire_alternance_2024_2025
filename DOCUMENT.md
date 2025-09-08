@@ -75,7 +75,6 @@ Assumant un style d’écriture plus libre, ce mémoire s’appuie cependant sur
 Ce document a été réalisé avec une aide non négligeable de l'intelligence artificielle, notamment grâce à ChatGPT, un outil développé par OpenAI. L'utilisation de cet outil peut paraître incongrue, surtout en considération de mes valeurs morales. Pourtant, l'IA s'impose comme l'outil de demain, et elle en fait une belle démonstration ici. ChatGPT m'a aidé à corriger les fautes d’orthographe qui se sont glissées dans ce document. ChatGPT se trouve être également un formidable moteur de recherche, parvenant à de meilleurs résultats que Google Scholar pour des recherches dans la littérature scientifique. Enfin, cet outil m'a permis de trouver l'inspiration pour certaines tournures de phrases, certains sujets.  
 Cet outil n’a pas remplacé ma réflexion ni mon travail d’écriture, mais il a contribué à en améliorer la clarté et la précision. À votre initiative, je pourrais vous donner davantage de précisions, par souci de transparence.
 
-
 \newpage
 
 # Travailler dans le _Digital_
@@ -120,7 +119,6 @@ Tout cela m’a ramené à mon échange avec Renaud [Epstein]{.smallcaps} et à 
 Cette interrogation sur le statut du développeur au sein de la _Digital Factory_ reprend une métaphore sociologique connue : l’opposition entre « col blanc » et « col bleu ». À l'origine, le premier renvoie aux emplois intellectuels ou administratifs qualifiés, où créativité et autonomie occupent une place prépondérante. C'est la fameuse chemise blanche portée dans les bureaux. À l’inverse, le col bleu désigne quant à lui les emplois manuels ou industriels ; qui connotent fortement avec la répétition des gestes, la standardisation des tâches, et avec une certaine subordination hiérarchique. C'est le fameux bleu de travail porté en usine.  
 Or, le terme de _Digital Factory_ soulève un paradoxe : le travail des développeurs est à la fois créatif et technique, mais il peut être aussi structuré, répétitif et encadré, rappelant des aspects du travail ouvrier.  
 Dès lors, une question survient : la _Digital Factory_ constitue-t-elle une organisation créative et autonome, à l'image des cols blancs, ou bien reproduit-elle les logiques de l'industrie, et le travail routinier propre aux cols bleus ?
-
 
 \newpage
 
@@ -175,7 +173,6 @@ Cet élément, isolé de son contexte, peut paraître futile, anecdotique. Pourt
 Et c'est justement dans cette culture que s'inscrit le travail du développeur. Ainsi, pour comprendre la place du développeur dans l'entreprise, et donc au sein de la _Digital Factory_, il faut d'abord mettre en contexte cette culture d'entreprise : regarder comment l'entreprise décide, organise, et valorise ses collaborateurs.
 
 ![Publicis Sapient dans le XX^e^ arrondissement de Paris](./assets/gambetta.jpg "Publicis Sapient dans le XX^e^ arrondissement de Paris")
-
 
 \newpage
 
@@ -271,7 +268,6 @@ Dans cette identité de dimension trois, on a d'abord Publicis Groupe. Le groupe
 Mais le groupe Publicis ne pourrait exister sans ses composantes, dont fait partie Publicis Sapient. Là encore, une culture d'entreprise se distingue : je suis un Sapient. Cette identité fédère quant à elle sur les valeurs du consulting, et du numérique. On ne se sent pas communicants, mais acteurs du numérique. Là aussi, nous portons des marqueurs identitaires clairs : vocabulaire interne, méthodologie SPEED, organisation en capabilities, ou encore un discours permanent sur la « disruption » et le DBT. Ces éléments renforcent l'idée d'appartenir à une communauté de pratiques singulière, tournée vers l’innovation numérique et la transformation.
 Enfin, nous travaillons chez le client, et même si je n’en ai fait l’expérience qu’une seule année, certains collaborateurs Sapient y restent plusieurs années, accentuant le flou de leur identité professionnelle. Dans ce cadre, on partage des locaux, des projets, et même parfois une partie de la culture du client. On peut finir par se sentir intégré à l’entreprise pour laquelle on est en mission, sans pourtant en être réellement salarié. Cette proximité crée une identité hybride, qui peut être constructive, en ayant une compréhension du client, renforçant un sentiment d'appartenance au projet ; tout en étant une source de confusion. Être à la fois un Publicis, un Sapient et « presque » un Sonepar, c’est jongler avec des repères multiples, créant ainsi un rapport à l'entreprise complexe.
 
-
 \newpage
 
 # Premières semaines de travail et considérations éthiques
@@ -303,7 +299,6 @@ Arriver dans l’équipe Watts, c’était franchir une nouvelle étape, et pas 
 Pour moi, l’enjeu n’était pas seulement d’apprendre une nouvelle stack ou de comprendre les rouages d’un projet complexe : il s’agissait avant tout de m’intégrer dans une équipe déjà soudée, de trouver ma place parmi des profils expérimentés. Ce défi était d’autant plus grand que je suis naturellement timide, et que la prise de parole, l’initiative ou même le simple fait de demander de l’aide me demandaient un effort considérable. Pourtant, l’entreprise, c’est avant tout une expérience humaine : on ne travaille pas seul, on avance ensemble, on partage les réussites comme les difficultés.
 
 Dès les premiers jours, Carla a joué un rôle déterminant dans mon intégration. Son accueil chaleureux, sa disponibilité et sa capacité à mettre à l’aise ont été essentiels pour moi. Elle m’a guidé dans la découverte des rituels de l’équipe : les dailies, les refinements, les plannings, autant de moments où il fallait oser prendre la parole, exposer ses avancées ou ses blocages. Grâce à elle, j’ai pu progressivement dépasser ma timidité, comprendre le fonctionnement collectif et m’ouvrir aux autres. L’équipe Watts, par son écoute et sa bienveillance, m’a permis de transformer ce qui était un défi personnel en une véritable opportunité de croissance, humaine autant que professionnelle.
-
 
 \newpage
 
@@ -371,7 +366,6 @@ C'est pour ces raisons que la Sample App est née.
 Accessible à toutes les personnes du programme, la Sample App est une plateforme de e-commerce fictive créée en Next.js. Son but : montrer à moindre échelle l'ensemble des composants au travers de pages produits, d'une _homepage_, d'un panier de commande et même de la page « mon compte » pour illustrer les composants de formulaire. Cette Sample App permet à Watts de tester ses composants dans une application. Mais également, elle permet aux développeurs externes de comprendre comment les composants ont été implémentés. Enfin, la Sample App permet à toutes les personnes non-initiées au développement de tester les composants, et de se faire une idée de leur rendu une fois en production, grâce à un contexte cohérent.
 
 ![Page d'accueil de la Sample App](./assets/sample-app.png "Page d'accueil de la Sample App")
-
 
 \newpage
 
@@ -511,7 +505,6 @@ C'est en comprenant cela que j'ai réalisé que mes idées pouvaient faire sens 
 Je me souviens avoir suggéré à Mélanie une amélioration dans le Design System, et à la manière dont on gérait le fonctionnement du bouton dans le composant `<Menu />`. Sous couvert d'euphémismes, je présentais alors mon idée, pour aborder la problématique autrement. Je découvrais alors avec surprise la réaction de Mélanie, qui en plus de prendre avec sérieux ma suggestion, me complimentait pour avoir fait cette proposition.  
 Je réalisais alors que je pouvais moi aussi apporter à mon échelle, contribuer au Design System, en apportant un regard alternatif du fait de mon expérience. C'est un regard complémentaire à celui de la _seniorité_ de mes collègues.
 
-
 \newpage
 
 # Bilan après 172 commits
@@ -540,7 +533,6 @@ Ce préjudice est à relativiser, tant il ne m'a finalement pas porté… préju
 
 En somme, j'ai l'impression d'avoir gagné en maturité, en maturité professionnelle notamment. Je me suis formé aux pratiques en entreprise, j'ai gagné en technique, et ai développé mon sens de la communication (avec une nette affirmation de moi-même en anglais !). Mais je pense que ma plus grande leçon aura été ce que j'ai appris sur moi, ce travail introspectif mené tout au long de l'année.
 
-
 \newpage
 
 # Le développeur n'est plus un col blanc
@@ -567,7 +559,6 @@ Avec des horaires fixes, le développeur se rend à la _Digital Factory_. Il se 
 
 Finalement, pourrions-nous voir une transformation du métier de développeur ? Le col blanc au sens sociologique ne trouve plus de matérialité dans ce secteur. Les développeurs ne sont manifestement pas des ouvriers. Ils ne travaillent pas à l'usine. Pourtant, il semble que de nouvelles usines aient émergé, sans qu'on les appelle pour autant des usines. Celles-ci créent de la confusion, une ambivalence dans les responsabilités du développeur. Le développeur n'est pas un ouvrier, mais il en porte ses habits.
 
-
 \newpage
 
 # La _Digital Factory_ en bleu de travail ?
@@ -581,6 +572,8 @@ Cependant, Publicis Sapient France tend vers un autre horizon. Depuis le début 
 
 S'il y a une chose marquante avec la _Digital Factory_, c'est qu'elle engendre des métiers dons la catégorisation est difficile. Les frontières sont bien moins marquées que celles des définitions sociologiques, calquées sur la période de l'industrialisation. Le développeur ressemble en tous points à un ouvrier, pourtant il conserve des marqueurs significatifs des cols blancs. Le développeur n'est donc pas un ouvrier, mais pas un col blanc non plus ?
 
+\newpage
+
 # La _Digital Factory_ n'est pas une question de col, mais de sweat à capuche
 
 Au final, la distinction traditionnelle qui oppose col blanc et col bleu, perd drastiquement de son sens, surtout dans ce contexte numérique fort. Cette période post-bulle informatique rebat les cartes sur toutes les dimensions, dont la dimension sociologique. Il devient donc impropre de parler de col blanc et de col bleu. Ces termes n'arrivent plus à caractériser, catégoriser fidèlement les différentes professions.
@@ -592,7 +585,6 @@ Peut-être en effet que la profession de développeur est groupe à part entièr
 Le sweat à capuche est une sorte d'hybridation. Son identité professionnelle se construit au travers du rythme des projets, des interactions avec les pairs, et des rituels partagés. C'est un équilibre entre une certaine autonomie intellectuelle et de la structuration, entre réflexion et cadence imposée.
 
 Les IA sont en train de résoudre des problèmes jusqu'alors insolvables. Les IA seront capables de remplacer des métiers intellectuels, auxquels on prêtait une immunité technologique. Aujourd'hui, ces métiers sont en phase d'être radicalement transformés. Le personnel de ménage n'a pas perdu son métier, seulement le balai. Les développeurs, eux, risquent de voir une partie de leur autonomie intellectuelle absorbée par ce nouvel « aspirateur de données » qu’est l’IA.
-
 
 \newpage
 
@@ -621,26 +613,25 @@ Et justement, cette expérience humaine m'a fait également reconsidérer mon ra
 J'ai découvert en MMI une sympathie pour l'expérience utilisateur (UX). Ce n'est pas un domaine que je connaissais avant d'entrer dans la formation. Pourtant, je crois avoir découvert une nouvelle passion, qui peut-être m'aidera à éclairer mes futures aspirations professionnelles.  
 Il y a une caractéristique forte dans l'UX, presque un principe fondateur : l'empathie. Et il y a bien une chose que je dois dire, j'aime cette vision recentrée sur l'autre. Où la technique s'efface pour laisser apparaître des humains. Peut-être est-ce là l'écho de ma peur d'un web qui se robotise, avec tous ces sites web générés par IA. Tous ces posts, toutes ces images, toutes ces vidéos, tous ces sons, générés par IA.
 
-
 \newpage
 
 # Glossaire {-}
 
- * **Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.  
- * **API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.  
- * **Consulting** Activité de conseil aux entreprises, incluant souvent la mise en œuvre des recommandations.  
- * **Design System** Ensemble cohérent de composants, règles et outils permettant de créer des interfaces utilisateur harmonisées.  
- * **Framework** Cadre de travail structuré fournissant des outils et des conventions pour le développement logiciel.  
- * **Open Source** Modèle de développement logiciel où le code source est librement accessible et modifiable.  
- * **React** Bibliothèque JavaScript pour créer des interfaces utilisateur avec des composants réutilisables.  
- * **Repository** Espace de stockage pour un projet de développement, incluant le code source et son historique.  
- * **Sprint** Période de travail de durée fixe (généralement 2 semaines) dans les méthodes agiles.  
- * **Stack** Ensemble de technologies utilisées pour développer une application.  
- * **Tokens** Valeurs standardisées (couleurs, espacements, tailles) utilisées dans un design system.  
- * **User stories** Descriptions courtes des fonctionnalités du point de vue de l'utilisateur final.  
- * **Backlog** Liste priorisée des fonctionnalités et tâches à réaliser.  
- * **Web components** Standard du web permettant de créer des composants réutilisables nativement dans les navigateurs.  
- * **DOM virtuel** Représentation en mémoire de l'interface utilisateur permettant des mises à jour optimisées.  
+* **Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.  
+* **API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.  
+* **Consulting** Activité de conseil aux entreprises, incluant souvent la mise en œuvre des recommandations.  
+* **Design System** Ensemble cohérent de composants, règles et outils permettant de créer des interfaces utilisateur harmonisées.  
+* **Framework** Cadre de travail structuré fournissant des outils et des conventions pour le développement logiciel.  
+* **Open Source** Modèle de développement logiciel où le code source est librement accessible et modifiable.  
+* **React** Bibliothèque JavaScript pour créer des interfaces utilisateur avec des composants réutilisables.  
+* **Repository** Espace de stockage pour un projet de développement, incluant le code source et son historique.  
+* **Sprint** Période de travail de durée fixe (généralement 2 semaines) dans les méthodes agiles.  
+* **Stack** Ensemble de technologies utilisées pour développer une application.  
+* **Tokens** Valeurs standardisées (couleurs, espacements, tailles) utilisées dans un design system.  
+* **User stories** Descriptions courtes des fonctionnalités du point de vue de l'utilisateur final.  
+* **Backlog** Liste priorisée des fonctionnalités et tâches à réaliser.  
+* **Web components** Standard du web permettant de créer des composants réutilisables nativement dans les navigateurs.  
+* **DOM virtuel** Représentation en mémoire de l'interface utilisateur permettant des mises à jour optimisées.  
 
 \newpage
 
