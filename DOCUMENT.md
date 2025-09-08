@@ -618,7 +618,7 @@ Il y a une caractéristique forte dans l'UX, presque un principe fondateur : l'e
 
 \newpage
 
-## Glossaire {-}
+# Glossaire {-}
 
 **Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.  
 **API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.  
