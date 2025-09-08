@@ -106,10 +106,10 @@ Une chose a marqué mon arrivée dans cette entreprise : je vais travailler au s
 
 Ce terme de _Digital Factory_ m'est familier. Il me rappelle un concept vague que j'avais croisé à plusieurs reprises sur internet. La désignation comme telle d'une équipe de développeurs illustre une vision du travailleur comme d'un maillon d'une chaîne de production. Caricaturée, l’usine, c’est là où l’individu devient interchangeable et où chaque geste est compté, chronométré et calibré pour ne servir que le rendement. Le terme de _Digital Factory_ serait-il maladroit ?
 
-Peu importe les intentions qui auraient été prêtées au nom de _Digital Factory_, c'est l'interprétation que l'on en fait qui prévaut, et il semble que ce terme soit galvaudé. Le docteur Fabian [Namberger]{.smallcaps} en propose une illustration dans @DigitalFactoryReview [].  
+Peu importe les intentions qui auraient été prêtées au nom de _Digital Factory_, c'est l'interprétation que l'on en fait qui prévaut, et il semble que ce terme soit galvaudé. Le docteur Fabian [Namberger]{.smallcaps} en propose une illustration dans @DigitalFactoryReview2022 [].  
 Fabian [Namberger]{.smallcaps} est chercheur postdoctoral en design urbain à l’Université HafenCity de Hambourg. Son parcours universitaire offre une vision concrète et matérielle de certains concepts parfois plus abstraits. Notamment, ses derniers travaux portent sur l’intégration des plateformes numériques dans l’espace urbain. Cela permet de mettre en relief une économie numérique qui se projette en dehors des écrans. C'est à l'image de sa thèse de doctorat portant sur les activités de l'entreprise de VTC Uber dans la ville de Toronto.
 
-@DigitalFactoryReview [] montre un concept cynique de l'usine numérique, mettant en parallèle les « player-workers » du jeu vidéo _World of Warcraft_ en Chine.
+@DigitalFactoryReview2022 [] montre un concept cynique de l'usine numérique, mettant en parallèle les « player-workers » du jeu vidéo _World of Warcraft_ en Chine.
 
 > « While customers from the United States, Europe, Japan and Korea pay a little extra for fast progress through the game, Chinese player-workers spend hours on end on the same repetitive click tasks »
 
@@ -620,21 +620,21 @@ Il y a une caractéristique forte dans l'UX, presque un principe fondateur : l'e
 
 ## Glossaire {-}
 
-- **Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.
-- **API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.
-- **Consulting** Activité de conseil aux entreprises, incluant souvent la mise en œuvre des recommandations.
-- **Design System** Ensemble cohérent de composants, règles et outils permettant de créer des interfaces utilisateur harmonisées.
-- **Framework** Cadre de travail structuré fournissant des outils et des conventions pour le développement logiciel.
-- **Open Source** Modèle de développement logiciel où le code source est librement accessible et modifiable.
-- **React** Bibliothèque JavaScript pour créer des interfaces utilisateur avec des composants réutilisables.
-- **Repository** Espace de stockage pour un projet de développement, incluant le code source et son historique.
-- **Sprint** Période de travail de durée fixe (généralement 2 semaines) dans les méthodes agiles.
-- **Stack** Ensemble de technologies utilisées pour développer une application.
-- **Tokens** Valeurs standardisées (couleurs, espacements, tailles) utilisées dans un design system.
-- **User stories** Descriptions courtes des fonctionnalités du point de vue de l'utilisateur final.
-- **Backlog** Liste priorisée des fonctionnalités et tâches à réaliser.
-- **Web components** Standard du web permettant de créer des composants réutilisables nativement dans les navigateurs.
-- **DOM virtuel** Représentation en mémoire de l'interface utilisateur permettant des mises à jour optimisées.
+**Agile** Méthodologie de gestion de projet privilégiant la collaboration, l'adaptabilité et la livraison itérative de valeur.  
+**API** Application Programming Interface. Interface permettant à deux systèmes informatiques d'interagir entre eux.  
+**Consulting** Activité de conseil aux entreprises, incluant souvent la mise en œuvre des recommandations.  
+**Design System** Ensemble cohérent de composants, règles et outils permettant de créer des interfaces utilisateur harmonisées.  
+**Framework** Cadre de travail structuré fournissant des outils et des conventions pour le développement logiciel.  
+**Open Source** Modèle de développement logiciel où le code source est librement accessible et modifiable.  
+**React** Bibliothèque JavaScript pour créer des interfaces utilisateur avec des composants réutilisables.  
+**Repository** Espace de stockage pour un projet de développement, incluant le code source et son historique.  
+**Sprint** Période de travail de durée fixe (généralement 2 semaines) dans les méthodes agiles.  
+**Stack** Ensemble de technologies utilisées pour développer une application.  
+**Tokens** Valeurs standardisées (couleurs, espacements, tailles) utilisées dans un design system.  
+**User stories** Descriptions courtes des fonctionnalités du point de vue de l'utilisateur final.  
+**Backlog** Liste priorisée des fonctionnalités et tâches à réaliser.  
+**Web components** Standard du web permettant de créer des composants réutilisables nativement dans les navigateurs.  
+**DOM virtuel** Représentation en mémoire de l'interface utilisateur permettant des mises à jour optimisées.  
 
 \newpage
 
